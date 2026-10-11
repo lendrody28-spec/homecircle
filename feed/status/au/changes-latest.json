@@ -1,0 +1,337 @@
+{
+  "schema_version": "1.0.0",
+  "country": "AU",
+  "generated_at": "2026-10-11T23:28:45.742445+00:00",
+  "report_day": "2026-10-12",
+  "previous_count": 2922,
+  "current_count": 2929,
+  "added_count": 9,
+  "removed_count": 2,
+  "changed_count": 21,
+  "broken_link_count": 1,
+  "link_check": {
+    "ok": 297,
+    "broken": 1,
+    "blocked_by_host": 21,
+    "skipped": false
+  },
+  "stale_sources": [],
+  "added": [
+    {
+      "id": "aa:au:271999",
+      "fellowship": "AA",
+      "name": "GroupOfDrunks G.O.D. Monday",
+      "format": "online",
+      "state": "VIC"
+    },
+    {
+      "id": "aa:au:272007",
+      "fellowship": "AA",
+      "name": "GroupOfDrunks G.O.D. Tuesday",
+      "format": "online",
+      "state": "VIC"
+    },
+    {
+      "id": "aa:au:272009",
+      "fellowship": "AA",
+      "name": "GroupOfDrunks G.O.D. Wednesday",
+      "format": "online",
+      "state": "VIC"
+    },
+    {
+      "id": "aa:au:272010",
+      "fellowship": "AA",
+      "name": "GroupOfDrunks G.O.D. Thursday",
+      "format": "online",
+      "state": "VIC"
+    },
+    {
+      "id": "aa:au:272011",
+      "fellowship": "AA",
+      "name": "GroupOfDrunks G.O.D. Friday",
+      "format": "online",
+      "state": "VIC"
+    },
+    {
+      "id": "aa:au:272013",
+      "fellowship": "AA",
+      "name": "GroupOfDrunks G.O.D. Saturday",
+      "format": "online",
+      "state": "VIC"
+    },
+    {
+      "id": "aa:au:272014",
+      "fellowship": "AA",
+      "name": "GroupOfDrunks G.O.D. Sunday",
+      "format": "online",
+      "state": "VIC"
+    },
+    {
+      "id": "aa:au:272022",
+      "fellowship": "AA",
+      "name": "New Farm Big Book",
+      "format": "in_person",
+      "state": "QLD"
+    },
+    {
+      "id": "na:au:4031",
+      "fellowship": "NA",
+      "name": "Living Free - Cairns Online",
+      "format": "online",
+      "state": "QLD"
+    }
+  ],
+  "removed": [
+    {
+      "id": "na:au:3785",
+      "fellowship": "NA",
+      "name": "NA Recovery Mancave",
+      "format": "in_person",
+      "state": "VIC"
+    },
+    {
+      "id": "na:au:3971",
+      "fellowship": "NA",
+      "name": "Point Cook Basic Text",
+      "format": "in_person",
+      "state": "VIC"
+    }
+  ],
+  "changed": [
+    {
+      "id": "aa:au:251206",
+      "fellowship": "AA",
+      "name": "Glen Forrest Candlelight I.D. Monday",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "aa:au:251912",
+      "fellowship": "AA",
+      "name": "New Farm Steps",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "aa:au:252648",
+      "fellowship": "AA",
+      "name": "Manly Big Book by the Sea Wednesday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "aa:au:252843",
+      "fellowship": "AA",
+      "name": "The Deal Mens Wednesday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:252886",
+      "fellowship": "AA",
+      "name": "Manly Wednesday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "aa:au:252934",
+      "fellowship": "AA",
+      "name": "\"In All Our Affairs\" Online Wednesday DARWIN 6pm, ACST",
+      "format": "online",
+      "state": "NT",
+      "fields": [
+        "name",
+        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:253087",
+      "fellowship": "AA",
+      "name": "Caringbah  Unity Wednesday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "format",
+        "notes",
+        "online"
+      ]
+    },
+    {
+      "id": "aa:au:253868",
+      "fellowship": "AA",
+      "name": "Taree Thursday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:254331",
+      "fellowship": "AA",
+      "name": "New Farm Recovery Topics",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "name",
+        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:255811",
+      "fellowship": "AA",
+      "name": "The Deal Mens Sunday",
+      "format": "hybrid",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:271526",
+      "fellowship": "AA",
+      "name": "Springvale Tuesday Night",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "na:au:2223",
+      "fellowship": "NA",
+      "name": "Lismore Living Clean",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "notes",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2342",
+      "fellowship": "NA",
+      "name": "Erskineville Monday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2808",
+      "fellowship": "NA",
+      "name": "Greensborough",
+      "format": "hybrid",
+      "state": "VIC",
+      "fields": [
+        "notes",
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3220",
+      "fellowship": "NA",
+      "name": "Meditation Meeting 6pm (QLD) / 7pm DLST (NSW)",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "name",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3379",
+      "fellowship": "NA",
+      "name": "Online Coffs Women's Monday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes",
+        "online"
+      ]
+    },
+    {
+      "id": "na:au:3426",
+      "fellowship": "NA",
+      "name": "Online Coffs Women's Thursday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes",
+        "online"
+      ]
+    },
+    {
+      "id": "na:au:3767",
+      "fellowship": "NA",
+      "name": "NA Online Australia - Weekend 'Just for Today'",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "name",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3768",
+      "fellowship": "NA",
+      "name": "NA Online Australia - Weekend 'Just for Today'",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "name",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3915",
+      "fellowship": "NA",
+      "name": "Pride in Recovery LGBTQISB+",
+      "format": "hybrid",
+      "state": "NSW",
+      "fields": [
+        "name",
+        "notes"
+      ]
+    },
+    {
+      "id": "na:au:3949",
+      "fellowship": "NA",
+      "name": "Living Clean in Redfern",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "notes",
+        "location"
+      ]
+    }
+  ],
+  "broken_links": [
+    {
+      "id": "na:au:2510",
+      "name": "Newcastle Just For Today",
+      "fellowship": "NA",
+      "url": "https://bluejeans.com/703284722/7733",
+      "reason": "unreachable:[Errno -5] No address associated with hostname"
+    }
+  ]
+}

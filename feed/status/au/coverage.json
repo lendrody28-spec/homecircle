@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "country": "AU",
+  "generated_at": "2026-10-11T23:28:45.742445+00:00",
+  "meeting_count": 2929,
+  "by_fellowship": {
+    "AA": 2169,
+    "NA": 760
+  },
+  "by_format": {
+    "hybrid": 134,
+    "in_person": 2356,
+    "online": 439
+  },
+  "by_state": {
+    "ACT": 61,
+    "NSW": 1123,
+    "NT": 24,
+    "QLD": 621,
+    "SA": 148,
+    "TAS": 52,
+    "VIC": 644,
+    "WA": 246,
+    "unknown": 10
+  },
+  "by_tag": {
+    "closed": 86,
+    "first_nations": 14,
+    "lgbtq": 68,
+    "men": 75,
+    "open": 1055,
+    "women": 163
+  },
+  "by_timezone_source": {
+    "country_default": 3,
+    "source": 122,
+    "state": 2804
+  },
+  "with_coordinates": 2919,
+  "with_online_url": 554,
+  "with_online_phone": 221,
+  "withheld": {
+    "inactive": 57,
+    "invalid": 0,
+    "outside_country": 0,
+    "temporarily_closed": 10,
+    "unpublished": 0
+  },
+  "sources": [
+    {
+      "id": "na-au-bmlt",
+      "name": "NA Australia BMLT",
+      "status": "ok",
+      "fetched": 760,
+      "kept": 760,
+      "withheld": {
+        "unpublished": 0,
+        "outside_country": 0,
+        "invalid": 0
+      },
+      "error": null
+    },
+    {
+      "id": "aa-au-tsml",
+      "name": "AA Australia Meeting Guide feed",
+      "status": "ok",
+      "fetched": 2236,
+      "kept": 2169,
+      "withheld": {
+        "inactive": 57,
+        "temporarily_closed": 10,
+        "invalid": 0
+      },
+      "error": null
+    }
+  ],
+  "not_used": [
+    {
+      "id": "bmlt-aggregator",
+      "url": "https://aggregator.bmltenabled.org/main_server/",
+      "reason": "The aggregator (formerly Tomato) repeats every regional root. The daily job calls each enabled country's own server so Australia is not downloaded once per region and again from the aggregator. Add another country by copying its root from https://raw.githubusercontent.com/bmlt-enabled/aggregator/refs/heads/main/serverList.json into countries[]."
+    },
+    {
+      "id": "virtual-na",
+      "url": "https://bmlt.virtual-na.org/main_server/",
+      "reason": "Official location-agnostic NA online list. It is a public BMLT root, but meetings are not reliably tagged with a country, and Australian online meetings are already on the NA Australia root. Left disabled so the Australia file is not filled with worldwide meetings."
+    },
+    {
+      "id": "aa-online-intergroup",
+      "url": "https://aa-intergroup.org/meetings/",
+      "reason": "The Online Intergroup site answered robots.txt with a bot challenge, and no Meeting Guide JSON link was verified. The central-query API used by their directory is not documented here as a public reuse feed. Not fetched."
+    },
+    {
+      "id": "search-engines",
+      "url": null,
+      "reason": "Meeting lists are not collected from Google, Bing, or other search engines."
+    }
+  ],
+  "link_check": {
+    "ok": 297,
+    "broken": 1,
+    "blocked_by_host": 21,
+    "skipped": false
+  }
+}

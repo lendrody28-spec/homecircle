@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-11T23:28:45.742445+00:00",
+  "item_count": 2,
+  "withheld_unapproved": 1,
+  "items": [
+    {
+      "id": "aa-au-meetings",
+      "publisher": "AA Australia",
+      "kind": "resource",
+      "title": "AA meetings in Australia",
+      "summary": "The Australian General Service Office publishes the national AA meeting list, including online meetings.",
+      "url": "https://meetings.aa.org.au/",
+      "starts_at": null,
+      "ends_at": null,
+      "approved": true
+    },
+    {
+      "id": "lifeline-13-11-14",
+      "publisher": "Lifeline",
+      "kind": "resource",
+      "title": "Lifeline 13 11 14",
+      "summary": "If you need to talk to someone now, Lifeline answers 24 hours a day. Call 13 11 14.",
+      "url": "https://www.lifeline.org.au/",
+      "starts_at": null,
+      "ends_at": null,
+      "approved": true
+    }
+  ]
+}
