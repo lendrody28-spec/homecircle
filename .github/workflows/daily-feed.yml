@@ -1,0 +1,86 @@
+name: Daily meeting feed
+
+# Rebuilds the HomeCircle AA + NA meeting feed and republishes it on GitHub Pages
+# (gh-pages branch, served at https://lendrody28-spec.github.io/homecircle/feed/).
+# Free: Actions minutes on a public repository cost nothing. No paid services.
+
+on:
+  schedule:
+    # 16:00 UTC is 02:00 in Australia/Brisbane (UTC+10, no daylight saving).
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-meeting-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONPATH: src
+    defaults:
+      run:
+        working-directory: feed-builder
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out the published site (gh-pages)
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test parsers, guard and seed
+        run: python -m unittest discover -s tests -v
+
+      - name: Load yesterday's published feed as the previous snapshot
+        # Lets a failed source keep its rows, and lets the low-count guard
+        # compare each source against the last published build.
+        run: python -m homecircle_feed seed --from ../site/feed/au
+
+      - name: Build feed
+        run: python -m homecircle_feed build --refresh
+
+      - name: Run summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          c = json.load(open("dist/changes/au/latest.json"))
+          i = json.load(open("dist/feed/au/index.json"))
+          f = json.load(open("dist/feed-items.json"))
+          print(f"### Meeting feed {i['generated_at']}")
+          print(f"- meetings: {i['meeting_count']} (previous {c['previous_count']}; +{c['added_count']} -{c['removed_count']} ~{c['changed_count']})")
+          print(f"- stale sources (previous rows kept): {', '.join(c['stale_sources']) or 'none'}")
+          print(f"- broken join links: {c['broken_link_count']}")
+          print(f"- feed cards published: {f['item_count']} (withheld unapproved: {f['withheld_unapproved']})")
+          cov = json.load(open("dist/au/coverage.json"))
+          for s in cov["sources"]:
+              print(f"- {s['id']}: {s['status']} fetched={s['fetched']} kept={s['kept']} {s.get('error') or ''}")
+          PY
+
+      - name: Publish to gh-pages
+        working-directory: site
+        run: |
+          mkdir -p feed/au feed/status/au
+          rsync -a --delete ../feed-builder/dist/feed/au/ feed/au/
+          cp ../feed-builder/dist/feed-items.json feed/feed-items.json
+          cp ../feed-builder/dist/au/coverage.json feed/status/au/coverage.json
+          cp ../feed-builder/dist/changes/au/latest.json feed/status/au/changes-latest.json
+          git config user.name "homecircle-feed"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A feed
+          if git diff --staged --quiet; then
+            echo "No feed changes"
+          else
+            git commit -m "Update daily meeting feed"
+            git push
+          fi
