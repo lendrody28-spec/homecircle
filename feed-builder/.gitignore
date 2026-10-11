@@ -1,0 +1,9 @@
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+agent-tools/
+dist/link-check-cache.json
