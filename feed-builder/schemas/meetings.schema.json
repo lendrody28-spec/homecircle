@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://homecircle.local/schemas/meetings.schema.json",
+  "title": "HomeCircle meeting feed",
+  "type": "object",
+  "required": ["schema_version", "country", "generated_at", "meeting_count", "meetings"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "country": {"type": "string", "minLength": 2, "maxLength": 2},
+    "country_name": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "meeting_count": {"type": "integer", "minimum": 0},
+    "meetings": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/meeting"}
+    }
+  },
+  "$defs": {
+    "meeting": {
+      "type": "object",
+      "required": ["id", "fellowship", "name", "schedule", "format", "location", "online", "tags", "source"],
+      "properties": {
+        "id": {"type": "string"},
+        "fellowship": {"enum": ["AA", "NA"]},
+        "name": {"type": "string"},
+        "schedule": {
+          "type": "object",
+          "required": ["day", "weekday", "start", "timezone", "duration_minutes"],
+          "properties": {
+            "day": {"enum": ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]},
+            "weekday": {"type": "integer", "minimum": 0, "maximum": 6},
+            "start": {"type": "string", "pattern": "^\\d{2}:\\d{2}$"},
+            "timezone": {"type": "string"},
+            "timezone_source": {"enum": ["source", "state", "country_default"]},
+            "duration_minutes": {"type": "integer", "minimum": 1, "maximum": 720}
+          }
+        },
+        "format": {"enum": ["in_person", "online", "hybrid"]},
+        "location": {
+          "type": "object",
+          "required": ["country"],
+          "properties": {
+            "name": {"type": ["string", "null"]},
+            "address": {"type": ["string", "null"]},
+            "suburb": {"type": ["string", "null"]},
+            "state": {"type": ["string", "null"]},
+            "postal_code": {"type": ["string", "null"]},
+            "country": {"type": "string"},
+            "latitude": {"type": ["number", "null"]},
+            "longitude": {"type": ["number", "null"]},
+            "approximate": {"type": "boolean"}
+          }
+        },
+        "online": {
+          "type": "object",
+          "properties": {
+            "url": {"type": ["string", "null"]},
+            "phone": {"type": ["string", "null"]}
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {"enum": ["open", "closed", "women", "men", "lgbtq", "first_nations", "families"]}
+        },
+        "notes": {"type": ["string", "null"]},
+        "source": {
+          "type": "object",
+          "required": ["id", "name", "url", "last_seen"],
+          "properties": {
+            "id": {"type": "string"},
+            "name": {"type": "string"},
+            "url": {"type": "string"},
+            "record_url": {"type": ["string", "null"]},
+            "last_seen": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "homecircle-meeting-feed"
+version = "1.0.0"
+description = "Daily static AA and NA meeting feed for the HomeCircle recovery app."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+homecircle-feed = "homecircle_feed.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,61 @@
+{
+  "user_agent": "HomeCircleMeetingFeed/1.0 (HomeCircle recovery app; daily cache of public meeting lists; respects robots.txt)",
+  "schedule": {
+    "cron_utc": "0 16 * * *",
+    "timezone": "Australia/Brisbane",
+    "local_time": "02:00",
+    "note": "Australia/Brisbane is UTC+10 all year. 02:00 there is 16:00 UTC."
+  },
+  "countries": [
+    {
+      "code": "AU",
+      "name": "Australia",
+      "enabled": true,
+      "default_timezone": "Australia/Sydney",
+      "sources": [
+        {
+          "id": "na-au-bmlt",
+          "kind": "bmlt",
+          "fellowship": "NA",
+          "name": "NA Australia BMLT",
+          "enabled": true,
+          "root_url": "https://www.na.org.au/main_server/",
+          "notes": "Public BMLT semantic API. robots.txt disallows /meetings/ and does not disallow /main_server/. The root is id 124 in the BMLT aggregator server list."
+        },
+        {
+          "id": "aa-au-tsml",
+          "kind": "tsml",
+          "fellowship": "AA",
+          "name": "AA Australia Meeting Guide feed",
+          "enabled": true,
+          "feed_url": "https://meetings.aa.org.au/wp-json/tsml/meetings",
+          "site_timezone": "Australia/Sydney",
+          "homepage": "https://meetings.aa.org.au/",
+          "notes": "12 Step Meeting List plugin feed published for the Meeting Guide app. The spec invites other systems to use it. robots.txt disallows /wp-admin/ except admin-ajax.php. The JSON response sends x-robots-tag noindex, which asks search engines not to index the file; it does not forbid this fetch."
+        }
+      ]
+    }
+  ],
+  "not_used": [
+    {
+      "id": "bmlt-aggregator",
+      "url": "https://aggregator.bmltenabled.org/main_server/",
+      "reason": "The aggregator (formerly Tomato) repeats every regional root. The daily job calls each enabled country's own server so Australia is not downloaded once per region and again from the aggregator. Add another country by copying its root from https://raw.githubusercontent.com/bmlt-enabled/aggregator/refs/heads/main/serverList.json into countries[]."
+    },
+    {
+      "id": "virtual-na",
+      "url": "https://bmlt.virtual-na.org/main_server/",
+      "reason": "Official location-agnostic NA online list. It is a public BMLT root, but meetings are not reliably tagged with a country, and Australian online meetings are already on the NA Australia root. Left disabled so the Australia file is not filled with worldwide meetings."
+    },
+    {
+      "id": "aa-online-intergroup",
+      "url": "https://aa-intergroup.org/meetings/",
+      "reason": "The Online Intergroup site answered robots.txt with a bot challenge, and no Meeting Guide JSON link was verified. The central-query API used by their directory is not documented here as a public reuse feed. Not fetched."
+    },
+    {
+      "id": "search-engines",
+      "url": null,
+      "reason": "Meeting lists are not collected from Google, Bing, or other search engines."
+    }
+  ]
+}

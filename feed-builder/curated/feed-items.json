@@ -1,0 +1,41 @@
+{
+  "instructions": "These are drafts for the HomeCircle news strip. Set approved to true only after a person has read the item. The daily job copies approved items into dist/feed-items.json and withholds everything else. Nothing in this file is published while approved is false.",
+  "items": [
+    {
+      "id": "aa-au-meetings",
+      "publisher": "AA Australia",
+      "kind": "resource",
+      "title": "AA meetings in Australia",
+      "summary": "The Australian General Service Office publishes the national AA meeting list, including online meetings.",
+      "url": "https://meetings.aa.org.au/",
+      "starts_at": null,
+      "ends_at": null,
+      "approved": true,
+      "review_note": "Standing link, not a news post. Approved by Luke 12 Oct 2026 for the home feed."
+    },
+    {
+      "id": "na-au-news",
+      "publisher": "NA Australia",
+      "kind": "news",
+      "title": "NA Australia news",
+      "summary": "Service announcements published by Narcotics Anonymous Australia.",
+      "url": "https://www.na.org.au/multi/category/news/",
+      "starts_at": null,
+      "ends_at": null,
+      "approved": false,
+      "review_note": "Index page only. Replace with one specific announcement, then approve that item. Do not auto-import this listing."
+    },
+    {
+      "id": "lifeline-13-11-14",
+      "publisher": "Lifeline",
+      "kind": "resource",
+      "title": "Lifeline 13 11 14",
+      "summary": "If you need to talk to someone now, Lifeline answers 24 hours a day. Call 13 11 14.",
+      "url": "https://www.lifeline.org.au/",
+      "starts_at": null,
+      "ends_at": null,
+      "approved": true,
+      "review_note": "Crisis card. Approved by Luke 12 Oct 2026 after checking lifeline.org.au: Call 13 11 14, available 24/7 (also text 0477 13 11 14)."
+    }
+  ]
+}
