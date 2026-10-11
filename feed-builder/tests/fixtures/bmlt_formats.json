@@ -1,0 +1,9 @@
+[
+  {"id": "17", "key_string": "O", "name_string": "Open"},
+  {"id": "4", "key_string": "C", "name_string": "Closed"},
+  {"id": "32", "key_string": "W", "name_string": "Women"},
+  {"id": "7", "key_string": "CS", "name_string": "Children under Supervision"},
+  {"id": "54", "key_string": "VM", "name_string": "Virtual Meeting"},
+  {"id": "44", "key_string": "GB", "name_string": "Gay / Bisexual"},
+  {"id": "80", "key_string": "FN", "name_string": "Indigenous"}
+]

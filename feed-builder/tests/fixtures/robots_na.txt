@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /administrator/
+Disallow: /cache/
+Disallow: /meetings/
+Disallow: /tmp/
