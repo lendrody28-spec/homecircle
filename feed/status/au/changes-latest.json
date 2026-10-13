@@ -1,32 +1,124 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-12T16:16:24.027223+00:00",
-  "report_day": "2026-10-13",
-  "previous_count": 2929,
-  "current_count": 2930,
-  "added_count": 1,
+  "generated_at": "2026-10-13T16:17:13.127918+00:00",
+  "report_day": "2026-10-14",
+  "previous_count": 2930,
+  "current_count": 2937,
+  "added_count": 7,
   "removed_count": 0,
-  "changed_count": 7,
+  "changed_count": 28,
   "broken_link_count": 1,
   "link_check": {
-    "ok": 297,
+    "ok": 318,
     "broken": 1,
-    "blocked_by_host": 21,
+    "blocked_by_host": 0,
     "skipped": false
   },
   "stale_sources": [],
   "added": [
     {
-      "id": "na:au:4032",
-      "fellowship": "NA",
-      "name": "Primary Purpose",
+      "id": "aa:au:272039",
+      "fellowship": "AA",
+      "name": "Cairns On Awakening Morning Meeting",
       "format": "in_person",
       "state": "QLD"
+    },
+    {
+      "id": "aa:au:272040",
+      "fellowship": "AA",
+      "name": "Cairns On Awakening Morning Meeting",
+      "format": "in_person",
+      "state": "QLD"
+    },
+    {
+      "id": "aa:au:272041",
+      "fellowship": "AA",
+      "name": "Cairns On Awakening Morning Meeting",
+      "format": "in_person",
+      "state": "QLD"
+    },
+    {
+      "id": "aa:au:272042",
+      "fellowship": "AA",
+      "name": "Cairns On Awakening Morning Meeting",
+      "format": "in_person",
+      "state": "QLD"
+    },
+    {
+      "id": "aa:au:272043",
+      "fellowship": "AA",
+      "name": "Cairns On Awakening Morning Meeting",
+      "format": "in_person",
+      "state": "QLD"
+    },
+    {
+      "id": "aa:au:272044",
+      "fellowship": "AA",
+      "name": "Oakdene House I’d Friday",
+      "format": "in_person",
+      "state": "NSW"
+    },
+    {
+      "id": "na:au:4033",
+      "fellowship": "NA",
+      "name": "Thursday Foundations of NA",
+      "format": "in_person",
+      "state": "ACT"
     }
   ],
   "removed": [],
   "changed": [
+    {
+      "id": "aa:au:250805",
+      "fellowship": "AA",
+      "name": "Daily Lunchtime Cairns Parramatta Park Monday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:251254",
+      "fellowship": "AA",
+      "name": "Cairns Monday Night Big Book Meeting",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:251376",
+      "fellowship": "AA",
+      "name": "Blackburn Big Book Study Monday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:251647",
+      "fellowship": "AA",
+      "name": "Daily Lunchtime Cairns Parramatta Park Tuesday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:251773",
+      "fellowship": "AA",
+      "name": "Tamborine Mountain United Tuesday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
     {
       "id": "aa:au:251904",
       "fellowship": "AA",
@@ -34,37 +126,97 @@
       "format": "in_person",
       "state": "WA",
       "fields": [
-        "schedule"
+        "notes"
       ]
     },
     {
-      "id": "aa:au:255042",
+      "id": "aa:au:252531",
       "fellowship": "AA",
-      "name": "Manly Big Book Beginners Saturday",
+      "name": "Daily Lunchtime Cairns Parramatta Park Wednesday",
       "format": "in_person",
-      "state": "NSW",
+      "state": "QLD",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:255424",
+      "id": "aa:au:252675",
       "fellowship": "AA",
-      "name": "Mandurah South Sunday",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "aa:au:265733",
-      "fellowship": "AA",
-      "name": "Brisbane Valley Breakfast meeting Monday",
+      "name": "Cairns City Beginners Wednesday",
       "format": "in_person",
       "state": "QLD",
       "fields": [
-        "name"
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:253320",
+      "fellowship": "AA",
+      "name": "Daily Lunchtime Cairns Parramatta Park Thursday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:253402",
+      "fellowship": "AA",
+      "name": "Cairns Womens Thursday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:253947",
+      "fellowship": "AA",
+      "name": "Alexandra Hills Open ID Friday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:254085",
+      "fellowship": "AA",
+      "name": "Daily Lunchtime Cairns Parramatta Park Friday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:255708",
+      "fellowship": "AA",
+      "name": "Sunset Cairns Parramatta Park Sunday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:257498",
+      "fellowship": "AA",
+      "name": "Steps and Traditions Parramatta Park Saturday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:268064",
+      "fellowship": "AA",
+      "name": "Cairns Chapter Six ID - Last Friday of Each Month",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
       ]
     },
     {
@@ -74,27 +226,137 @@
       "format": "in_person",
       "state": "WA",
       "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:271433",
+      "fellowship": "AA",
+      "name": "Fruit Salad Fellowship Tuesday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "name",
         "schedule"
       ]
     },
     {
-      "id": "na:au:2311",
+      "id": "na:au:2118",
       "fellowship": "NA",
-      "name": "Nambour Lunchie New Beginning",
+      "name": "Friday Fawkner St",
       "format": "in_person",
-      "state": "QLD",
+      "state": "ACT",
       "fields": [
-        "name"
+        "schedule",
+        "location"
       ]
     },
     {
-      "id": "na:au:4007",
+      "id": "na:au:2120",
       "fellowship": "NA",
-      "name": "NA Just For Today",
+      "name": "Monday Beginners",
       "format": "in_person",
-      "state": "NSW",
+      "state": "ACT",
       "fields": [
-        "name",
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2123",
+      "fellowship": "NA",
+      "name": "Thursday Night By Candlelight",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2124",
+      "fellowship": "NA",
+      "name": "Tuesday Lunchtime SPAD meeting",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2125",
+      "fellowship": "NA",
+      "name": "Women’s Steps and Traditions",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2611",
+      "fellowship": "NA",
+      "name": "Richardson Sunday afternoon",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2818",
+      "fellowship": "NA",
+      "name": "Saturday Spiritual Concepts",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3071",
+      "fellowship": "NA",
+      "name": "Meditation Meeting",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3157",
+      "fellowship": "NA",
+      "name": "Canberra Tuesday Men's Meeting",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3634",
+      "fellowship": "NA",
+      "name": "Kingston Steps and Tradtions",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3901",
+      "fellowship": "NA",
+      "name": "Rainbow NA",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
         "schedule",
         "location"
       ]
