@@ -1,98 +1,61 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-13T16:17:13.127918+00:00",
-  "report_day": "2026-10-14",
-  "previous_count": 2930,
-  "current_count": 2937,
-  "added_count": 7,
-  "removed_count": 0,
-  "changed_count": 28,
+  "generated_at": "2026-10-14T16:30:09.031076+00:00",
+  "report_day": "2026-10-15",
+  "previous_count": 2937,
+  "current_count": 2938,
+  "added_count": 2,
+  "removed_count": 1,
+  "changed_count": 39,
   "broken_link_count": 1,
   "link_check": {
-    "ok": 318,
+    "ok": 297,
     "broken": 1,
-    "blocked_by_host": 0,
+    "blocked_by_host": 22,
     "skipped": false
   },
   "stale_sources": [],
   "added": [
     {
-      "id": "aa:au:272039",
+      "id": "aa:au:272051",
       "fellowship": "AA",
-      "name": "Cairns On Awakening Morning Meeting",
-      "format": "in_person",
-      "state": "QLD"
-    },
-    {
-      "id": "aa:au:272040",
-      "fellowship": "AA",
-      "name": "Cairns On Awakening Morning Meeting",
-      "format": "in_person",
-      "state": "QLD"
-    },
-    {
-      "id": "aa:au:272041",
-      "fellowship": "AA",
-      "name": "Cairns On Awakening Morning Meeting",
-      "format": "in_person",
-      "state": "QLD"
-    },
-    {
-      "id": "aa:au:272042",
-      "fellowship": "AA",
-      "name": "Cairns On Awakening Morning Meeting",
-      "format": "in_person",
-      "state": "QLD"
-    },
-    {
-      "id": "aa:au:272043",
-      "fellowship": "AA",
-      "name": "Cairns On Awakening Morning Meeting",
-      "format": "in_person",
-      "state": "QLD"
-    },
-    {
-      "id": "aa:au:272044",
-      "fellowship": "AA",
-      "name": "Oakdene House I’d Friday",
-      "format": "in_person",
+      "name": "Hour Of Power Men’s Sunday",
+      "format": "online",
       "state": "NSW"
     },
     {
-      "id": "na:au:4033",
-      "fellowship": "NA",
-      "name": "Thursday Foundations of NA",
+      "id": "aa:au:272053",
+      "fellowship": "AA",
+      "name": "Eagleby Women's Big Book Study",
       "format": "in_person",
-      "state": "ACT"
+      "state": "QLD"
     }
   ],
-  "removed": [],
+  "removed": [
+    {
+      "id": "aa:au:260006",
+      "fellowship": "AA",
+      "name": "New Farm LGBTQIA+ Rainbow Sunday",
+      "format": "in_person",
+      "state": "QLD"
+    }
+  ],
   "changed": [
     {
-      "id": "aa:au:250805",
+      "id": "aa:au:250590",
       "fellowship": "AA",
-      "name": "Daily Lunchtime Cairns Parramatta Park Monday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Global Serenity Monday Afternoon",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:251254",
+      "id": "aa:au:251463",
       "fellowship": "AA",
-      "name": "Cairns Monday Night Big Book Meeting",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:251376",
-      "fellowship": "AA",
-      "name": "Blackburn Big Book Study Monday",
+      "name": "Bendigo Steps Monday",
       "format": "in_person",
       "state": "VIC",
       "fields": [
@@ -100,19 +63,59 @@
       ]
     },
     {
-      "id": "aa:au:251647",
+      "id": "aa:au:251520",
       "fellowship": "AA",
-      "name": "Daily Lunchtime Cairns Parramatta Park Tuesday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Global Serenity Tuesday Afternoon",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:251773",
+      "id": "aa:au:252365",
       "fellowship": "AA",
-      "name": "Tamborine Mountain United Tuesday",
+      "name": "Global Serenity Wednesday Afternoon",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:252672",
+      "fellowship": "AA",
+      "name": "Solid Foundation Rock Solid The Rocks, Sydney Wednesday Evening",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:253199",
+      "fellowship": "AA",
+      "name": "Global Serenity Thursday Afternoon",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:253923",
+      "fellowship": "AA",
+      "name": "Global Serenity Friday Afternoon",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:254331",
+      "fellowship": "AA",
+      "name": "New Farm Recovery Topics",
       "format": "in_person",
       "state": "QLD",
       "fields": [
@@ -120,245 +123,315 @@
       ]
     },
     {
-      "id": "aa:au:251904",
+      "id": "aa:au:256324",
       "fellowship": "AA",
-      "name": "Carlisle Literature Topics Tuesday",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:252531",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Cairns Parramatta Park Wednesday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Recovery First Sydney Online Monday",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:252675",
+      "id": "aa:au:257511",
       "fellowship": "AA",
-      "name": "Cairns City Beginners Wednesday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Saturday Night Live at The Rocks",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:253320",
+      "id": "aa:au:258998",
       "fellowship": "AA",
-      "name": "Daily Lunchtime Cairns Parramatta Park Thursday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Ryde Friday Night",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:253402",
+      "id": "aa:au:260004",
       "fellowship": "AA",
-      "name": "Cairns Womens Thursday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Still Sparkling Monday 8pm",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:253947",
+      "id": "aa:au:262229",
       "fellowship": "AA",
-      "name": "Alexandra Hills Open ID Friday",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:254085",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Cairns Parramatta Park Friday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Ruby Tuesday - Women’s Speaker/Topic",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:255708",
+      "id": "aa:au:263316",
       "fellowship": "AA",
-      "name": "Sunset Cairns Parramatta Park Sunday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Sydney Big Book Study 24hr Monday",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:257498",
+      "id": "aa:au:263650",
       "fellowship": "AA",
-      "name": "Steps and Traditions Parramatta Park Saturday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "We Are Not Saints 'International Big Book Discussion' Sunday",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:268064",
+      "id": "aa:au:265019",
       "fellowship": "AA",
-      "name": "Cairns Chapter Six ID - Last Friday of Each Month",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "The AA Promises Online Saturday",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "location"
       ]
     },
     {
-      "id": "aa:au:271135",
+      "id": "aa:au:267274",
       "fellowship": "AA",
-      "name": "Carlisle Women's Midday Wednesday",
-      "format": "in_person",
-      "state": "WA",
+      "name": "Rocketeers Topic Tuesday",
+      "format": "online",
+      "state": "NSW",
       "fields": [
-        "notes"
+        "location"
       ]
     },
     {
-      "id": "aa:au:271433",
+      "id": "aa:au:267505",
       "fellowship": "AA",
-      "name": "Fruit Salad Fellowship Tuesday",
+      "name": "Rainbow Spiritual Awakenings Sunday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:268721",
+      "fellowship": "AA",
+      "name": "Global Serenity Monday Evening",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:268722",
+      "fellowship": "AA",
+      "name": "Global Serenity Tuesday Evening",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:268723",
+      "fellowship": "AA",
+      "name": "Global Serenity Wednesday Evening",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:268724",
+      "fellowship": "AA",
+      "name": "Global Serenity Thursday Evening",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:268725",
+      "fellowship": "AA",
+      "name": "Global Serenity Friday Evening",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:269494",
+      "fellowship": "AA",
+      "name": "Sober Sisters' Women's Tuesday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:269780",
+      "fellowship": "AA",
+      "name": "Emerton Beginners Online Saturday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:270047",
+      "fellowship": "AA",
+      "name": "What's The Point Spiritual Seekers Monday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271476",
+      "fellowship": "AA",
+      "name": "Alcoholics Anonymous Auslan Tuesday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271526",
+      "fellowship": "AA",
+      "name": "Springvale Tuesday Night",
       "format": "in_person",
       "state": "VIC",
       "fields": [
-        "name",
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:271570",
+      "fellowship": "AA",
+      "name": "Sober Collective Sunday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271574",
+      "fellowship": "AA",
+      "name": "Sober Collective Monday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271575",
+      "fellowship": "AA",
+      "name": "Sober Collective Tuesday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271578",
+      "fellowship": "AA",
+      "name": "Sober Collective Wednesday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271579",
+      "fellowship": "AA",
+      "name": "Sober Collective Thursday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271580",
+      "fellowship": "AA",
+      "name": "Sober Collective Friday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271581",
+      "fellowship": "AA",
+      "name": "Sober Collective Saturday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271717",
+      "fellowship": "AA",
+      "name": "New Farm LGBTQIA+ Rainbow Saturday",
+      "format": "hybrid",
+      "state": "QLD",
+      "fields": [
         "schedule"
       ]
     },
     {
-      "id": "na:au:2118",
+      "id": "na:au:3543",
       "fellowship": "NA",
-      "name": "Friday Fawkner St",
+      "name": "NA Pride Toowoomba",
       "format": "in_person",
-      "state": "ACT",
+      "state": "QLD",
       "fields": [
-        "schedule",
+        "tags"
+      ]
+    },
+    {
+      "id": "na:au:3693",
+      "fellowship": "NA",
+      "name": "Southside Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "notes",
         "location"
       ]
     },
     {
-      "id": "na:au:2120",
+      "id": "na:au:3999",
       "fellowship": "NA",
-      "name": "Monday Beginners",
+      "name": "NA Southern Highlands",
       "format": "in_person",
-      "state": "ACT",
+      "state": "NSW",
       "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:2123",
-      "fellowship": "NA",
-      "name": "Thursday Night By Candlelight",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:2124",
-      "fellowship": "NA",
-      "name": "Tuesday Lunchtime SPAD meeting",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:2125",
-      "fellowship": "NA",
-      "name": "Women’s Steps and Traditions",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:2611",
-      "fellowship": "NA",
-      "name": "Richardson Sunday afternoon",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:2818",
-      "fellowship": "NA",
-      "name": "Saturday Spiritual Concepts",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3071",
-      "fellowship": "NA",
-      "name": "Meditation Meeting",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3157",
-      "fellowship": "NA",
-      "name": "Canberra Tuesday Men's Meeting",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3634",
-      "fellowship": "NA",
-      "name": "Kingston Steps and Tradtions",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3901",
-      "fellowship": "NA",
-      "name": "Rainbow NA",
-      "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "schedule",
-        "location"
+        "notes",
+        "schedule"
       ]
     }
   ],
