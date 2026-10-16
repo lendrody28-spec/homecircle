@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-15T16:27:28.912100+00:00",
-  "report_day": "2026-10-16",
-  "previous_count": 2938,
-  "current_count": 2951,
-  "added_count": 14,
-  "removed_count": 1,
+  "generated_at": "2026-10-16T16:26:03.574658+00:00",
+  "report_day": "2026-10-17",
+  "previous_count": 2951,
+  "current_count": 2946,
+  "added_count": 1,
+  "removed_count": 6,
   "changed_count": 4,
   "broken_link_count": 1,
   "link_check": {
@@ -18,40 +18,14 @@
   "stale_sources": [],
   "added": [
     {
-      "id": "aa:au:272061",
+      "id": "aa:au:272081",
       "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS MONDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272064",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS MONDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272065",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS TUESDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272067",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS WEDNESDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272068",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS THURSDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
+      "name": "Hope on Saturday",
+      "format": "in_person",
+      "state": "VIC"
+    }
+  ],
+  "removed": [
     {
       "id": "aa:au:272069",
       "fellowship": "AA",
@@ -70,27 +44,6 @@
       "id": "aa:au:272071",
       "fellowship": "AA",
       "name": "FREEDOM WITH THE 12 STEPS SUNDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272072",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS TUESDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272073",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS WEDNESDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272074",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS THURSDAY EVENING",
       "format": "online",
       "state": "NSW"
     },
@@ -116,55 +69,48 @@
       "state": "NSW"
     }
   ],
-  "removed": [
-    {
-      "id": "aa:au:267561",
-      "fellowship": "AA",
-      "name": "Nagambie ID Wednesday",
-      "format": "in_person",
-      "state": "VIC"
-    }
-  ],
   "changed": [
     {
-      "id": "aa:au:250859",
+      "id": "aa:au:250727",
       "fellowship": "AA",
-      "name": "Joondanna 'Sundowner' Beginners Living Sober Monday",
+      "name": "Kalamunda A New Freedom Monday",
       "format": "in_person",
       "state": "WA",
       "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:253357",
-      "fellowship": "AA",
-      "name": "Gladesville Beginners Thursday",
-      "format": "hybrid",
-      "state": "NSW",
-      "fields": [
+        "tags",
         "notes",
         "location"
       ]
     },
     {
-      "id": "aa:au:259527",
+      "id": "aa:au:255132",
       "fellowship": "AA",
-      "name": "Big Book Study Tuesday Beginners",
-      "format": "online",
-      "state": "NSW",
+      "name": "New Farm Living Sober",
+      "format": "in_person",
+      "state": "QLD",
       "fields": [
-        "location"
+        "name"
       ]
     },
     {
-      "id": "aa:au:268699",
+      "id": "aa:au:271776",
       "fellowship": "AA",
-      "name": "International Three Legacies Thursday",
-      "format": "online",
+      "name": "St Stephen’s Tuesday",
+      "format": "in_person",
       "state": "NSW",
       "fields": [
-        "schedule",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:2562",
+      "fellowship": "NA",
+      "name": "Buderim Lunchie Meeting - The Healing Hour",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "name",
+        "notes",
         "location"
       ]
     }
