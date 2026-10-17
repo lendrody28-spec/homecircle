@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-16T16:26:03.574658+00:00",
-  "report_day": "2026-10-17",
-  "previous_count": 2951,
+  "generated_at": "2026-10-17T16:20:57.672396+00:00",
+  "report_day": "2026-10-18",
+  "previous_count": 2946,
   "current_count": 2946,
-  "added_count": 1,
-  "removed_count": 6,
+  "added_count": 0,
+  "removed_count": 0,
   "changed_count": 4,
   "broken_link_count": 1,
   "link_check": {
@@ -16,101 +16,50 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [
-    {
-      "id": "aa:au:272081",
-      "fellowship": "AA",
-      "name": "Hope on Saturday",
-      "format": "in_person",
-      "state": "VIC"
-    }
-  ],
-  "removed": [
-    {
-      "id": "aa:au:272069",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS FRIDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272070",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SATURDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272071",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SUNDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272075",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS FRIDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272076",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SATURDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272077",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SUNDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    }
-  ],
+  "added": [],
+  "removed": [],
   "changed": [
     {
-      "id": "aa:au:250727",
-      "fellowship": "AA",
-      "name": "Kalamunda A New Freedom Monday",
+      "id": "na:au:3693",
+      "fellowship": "NA",
+      "name": "Southside Lunchie",
       "format": "in_person",
       "state": "WA",
       "fields": [
-        "tags",
         "notes",
+        "schedule",
         "location"
       ]
     },
     {
-      "id": "aa:au:255132",
-      "fellowship": "AA",
-      "name": "New Farm Living Sober",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "aa:au:271776",
-      "fellowship": "AA",
-      "name": "St Stephen’s Tuesday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:2562",
+      "id": "na:au:3868",
       "fellowship": "NA",
-      "name": "Buderim Lunchie Meeting - The Healing Hour",
+      "name": "Walk the Talk",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "na:au:3926",
+      "fellowship": "NA",
+      "name": "Saturday Night Lawnton Spiritual Principle a Day Meeting",
       "format": "in_person",
       "state": "QLD",
       "fields": [
         "name",
         "notes",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4030",
+      "fellowship": "NA",
+      "name": "The Literature Circle",
+      "format": "online",
+      "state": "WA",
+      "fields": [
         "location"
       ]
     }
