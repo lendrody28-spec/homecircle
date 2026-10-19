@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-18T16:21:55.682574+00:00",
-  "report_day": "2026-10-19",
-  "previous_count": 2946,
-  "current_count": 2942,
-  "added_count": 4,
-  "removed_count": 8,
-  "changed_count": 3,
+  "generated_at": "2026-10-19T16:28:59.568065+00:00",
+  "report_day": "2026-10-20",
+  "previous_count": 2942,
+  "current_count": 2951,
+  "added_count": 10,
+  "removed_count": 1,
+  "changed_count": 4,
   "broken_link_count": 1,
   "link_check": {
     "ok": 297,
@@ -17,43 +17,6 @@
   },
   "stale_sources": [],
   "added": [
-    {
-      "id": "aa:au:272069",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS FRIDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272070",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SATURDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272075",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS FRIDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272076",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SATURDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    }
-  ],
-  "removed": [
-    {
-      "id": "aa:au:253181",
-      "fellowship": "AA",
-      "name": "Warwick Northern Steps Wednesday",
-      "format": "in_person",
-      "state": "WA"
-    },
     {
       "id": "aa:au:271999",
       "fellowship": "AA",
@@ -102,33 +65,74 @@
       "name": "GroupOfDrunks G.O.D. Sunday",
       "format": "online",
       "state": "VIC"
+    },
+    {
+      "id": "aa:au:272071",
+      "fellowship": "AA",
+      "name": "FREEDOM WITH THE 12 STEPS SUNDAY AFTERNOON",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "aa:au:272077",
+      "fellowship": "AA",
+      "name": "FREEDOM WITH THE 12 STEPS SUNDAY EVENING",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "na:au:4034",
+      "fellowship": "NA",
+      "name": "Thursday Steps",
+      "format": "in_person",
+      "state": "NSW"
+    }
+  ],
+  "removed": [
+    {
+      "id": "aa:au:270771",
+      "fellowship": "AA",
+      "name": "Sydney AA Gratitude - Step One Tuesday",
+      "format": "online",
+      "state": "NSW"
     }
   ],
   "changed": [
     {
-      "id": "aa:au:252547",
+      "id": "aa:au:255424",
       "fellowship": "AA",
-      "name": "Goulburn 'Doers' Wednesday",
+      "name": "Mandurah Sunday Morning",
       "format": "in_person",
-      "state": "NSW",
+      "state": "WA",
       "fields": [
-        "notes"
+        "name"
       ]
     },
     {
-      "id": "aa:au:255226",
-      "fellowship": "AA",
-      "name": "Balwyn Calling Saturday",
-      "format": "in_person",
+      "id": "na:au:2751",
+      "fellowship": "NA",
+      "name": "Richmond Women’s",
+      "format": "hybrid",
       "state": "VIC",
       "fields": [
         "notes"
       ]
     },
     {
-      "id": "aa:au:255641",
-      "fellowship": "AA",
-      "name": "Goulburn Sunday",
+      "id": "na:au:2794",
+      "fellowship": "NA",
+      "name": "Goulburn Tuesday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "tags",
+        "notes"
+      ]
+    },
+    {
+      "id": "na:au:3972",
+      "fellowship": "NA",
+      "name": "Saturday Stillness",
       "format": "in_person",
       "state": "NSW",
       "fields": [
