@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-19T16:28:59.568065+00:00",
-  "report_day": "2026-10-20",
-  "previous_count": 2942,
-  "current_count": 2951,
+  "generated_at": "2026-10-20T16:28:39.852146+00:00",
+  "report_day": "2026-10-21",
+  "previous_count": 2951,
+  "current_count": 2960,
   "added_count": 10,
   "removed_count": 1,
-  "changed_count": 4,
+  "changed_count": 13,
   "broken_link_count": 1,
   "link_check": {
     "ok": 297,
@@ -18,125 +18,219 @@
   "stale_sources": [],
   "added": [
     {
-      "id": "aa:au:271999",
+      "id": "aa:au:270904",
       "fellowship": "AA",
-      "name": "GroupOfDrunks G.O.D. Monday",
-      "format": "online",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272007",
-      "fellowship": "AA",
-      "name": "GroupOfDrunks G.O.D. Tuesday",
-      "format": "online",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272009",
-      "fellowship": "AA",
-      "name": "GroupOfDrunks G.O.D. Wednesday",
-      "format": "online",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272010",
-      "fellowship": "AA",
-      "name": "GroupOfDrunks G.O.D. Thursday",
-      "format": "online",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272011",
-      "fellowship": "AA",
-      "name": "GroupOfDrunks G.O.D. Friday",
-      "format": "online",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272013",
-      "fellowship": "AA",
-      "name": "GroupOfDrunks G.O.D. Saturday",
-      "format": "online",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272014",
-      "fellowship": "AA",
-      "name": "GroupOfDrunks G.O.D. Sunday",
-      "format": "online",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272071",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SUNDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272077",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SUNDAY EVENING",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "na:au:4034",
-      "fellowship": "NA",
-      "name": "Thursday Steps",
+      "name": "Katherine Alcoholics Anonymous Sunday",
       "format": "in_person",
+      "state": "NT"
+    },
+    {
+      "id": "aa:au:272096",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Monday",
+      "format": "online",
       "state": "NSW"
+    },
+    {
+      "id": "aa:au:272099",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Tuesday",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "aa:au:272100",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Wednesday",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "aa:au:272101",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Thursday",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "aa:au:272102",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Friday",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "aa:au:272103",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Saturday",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "aa:au:272104",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Sunday",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "aa:au:272109",
+      "fellowship": "AA",
+      "name": "Bulimba Freethinkers/Secular",
+      "format": "in_person",
+      "state": "QLD"
+    },
+    {
+      "id": "aa:au:272111",
+      "fellowship": "AA",
+      "name": "Bridgeman Downs Joys of Recovery",
+      "format": "in_person",
+      "state": "QLD"
     }
   ],
   "removed": [
     {
-      "id": "aa:au:270771",
+      "id": "aa:au:270896",
       "fellowship": "AA",
-      "name": "Sydney AA Gratitude - Step One Tuesday",
-      "format": "online",
-      "state": "NSW"
+      "name": "Women's AA Book Group",
+      "format": "in_person",
+      "state": "QLD"
     }
   ],
   "changed": [
     {
-      "id": "aa:au:255424",
+      "id": "aa:au:251254",
       "fellowship": "AA",
-      "name": "Mandurah Sunday Morning",
+      "name": "Cairns Monday Night Big Book Meeting",
       "format": "in_person",
-      "state": "WA",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:251553",
+      "fellowship": "AA",
+      "name": "Bridgeman Downs Steps and Traditions Tuesday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:252712",
+      "fellowship": "AA",
+      "name": "Bridgeman Downs Big Book Wednesday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:254273",
+      "fellowship": "AA",
+      "name": "Carseldine Higher Power Topic Friday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:254331",
+      "fellowship": "AA",
+      "name": "New Farm Jay-walker Recovery Topics",
+      "format": "in_person",
+      "state": "QLD",
       "fields": [
         "name"
       ]
     },
     {
-      "id": "na:au:2751",
-      "fellowship": "NA",
-      "name": "Richmond Women’s",
-      "format": "hybrid",
-      "state": "VIC",
+      "id": "aa:au:257298",
+      "fellowship": "AA",
+      "name": "Joys of Recovery Sunday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:271400",
+      "fellowship": "AA",
+      "name": "Everton Park (EP) Open Group",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "name",
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:271476",
+      "fellowship": "AA",
+      "name": "Alcoholics Anonymous Auslan Tuesday",
+      "format": "online",
+      "state": "NSW",
       "fields": [
         "notes"
       ]
     },
     {
-      "id": "na:au:2794",
+      "id": "aa:au:271647",
+      "fellowship": "AA",
+      "name": "Bracken Ridge Women's AA Book Group",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "na:au:2754",
       "fellowship": "NA",
-      "name": "Goulburn Tuesday",
+      "name": "Goulburn Friday Speakers",
       "format": "in_person",
       "state": "NSW",
       "fields": [
+        "name",
         "tags",
-        "notes"
+        "schedule"
       ]
     },
     {
-      "id": "na:au:3972",
+      "id": "na:au:2911",
       "fellowship": "NA",
-      "name": "Saturday Stillness",
+      "name": "Goulburn Mens Meeting",
       "format": "in_person",
       "state": "NSW",
       "fields": [
-        "notes"
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3356",
+      "fellowship": "NA",
+      "name": "Saturday Online Steps & Trads",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes",
+        "schedule",
+        "online"
+      ]
+    },
+    {
+      "id": "na:au:4034",
+      "fellowship": "NA",
+      "name": "Goulburn Thursday Steps",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name"
       ]
     }
   ],

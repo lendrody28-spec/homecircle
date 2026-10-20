@@ -1,22 +1,22 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-19T16:28:59.568065+00:00",
-  "meeting_count": 2951,
+  "generated_at": "2026-10-20T16:28:39.852146+00:00",
+  "meeting_count": 2960,
   "by_fellowship": {
-    "AA": 2188,
+    "AA": 2197,
     "NA": 763
   },
   "by_format": {
     "hybrid": 134,
-    "in_person": 2364,
-    "online": 453
+    "in_person": 2366,
+    "online": 460
   },
   "by_state": {
     "ACT": 62,
-    "NSW": 1140,
-    "NT": 24,
-    "QLD": 626,
+    "NSW": 1147,
+    "NT": 25,
+    "QLD": 627,
     "SA": 148,
     "TAS": 52,
     "VIC": 644,
@@ -25,22 +25,22 @@
   },
   "by_tag": {
     "closed": 85,
-    "first_nations": 13,
+    "first_nations": 14,
     "lgbtq": 67,
     "men": 76,
-    "open": 1071,
-    "women": 164
+    "open": 1081,
+    "women": 163
   },
   "by_timezone_source": {
     "country_default": 3,
     "source": 137,
-    "state": 2811
+    "state": 2820
   },
-  "with_coordinates": 2941,
-  "with_online_url": 568,
-  "with_online_phone": 221,
+  "with_coordinates": 2950,
+  "with_online_url": 575,
+  "with_online_phone": 220,
   "withheld": {
-    "inactive": 58,
+    "inactive": 57,
     "invalid": 0,
     "outside_country": 0,
     "temporarily_closed": 10,
@@ -64,10 +64,10 @@
       "id": "aa-au-tsml",
       "name": "AA Australia Meeting Guide feed",
       "status": "ok",
-      "fetched": 2256,
-      "kept": 2188,
+      "fetched": 2264,
+      "kept": 2197,
       "withheld": {
-        "inactive": 58,
+        "inactive": 57,
         "temporarily_closed": 10,
         "invalid": 0
       },
