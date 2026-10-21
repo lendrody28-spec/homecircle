@@ -1,236 +1,63 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-20T16:28:39.852146+00:00",
-  "report_day": "2026-10-21",
-  "previous_count": 2951,
-  "current_count": 2960,
-  "added_count": 10,
-  "removed_count": 1,
-  "changed_count": 13,
+  "generated_at": "2026-10-21T16:28:02.142400+00:00",
+  "report_day": "2026-10-22",
+  "previous_count": 2960,
+  "current_count": 2956,
+  "added_count": 0,
+  "removed_count": 4,
+  "changed_count": 1,
   "broken_link_count": 1,
   "link_check": {
-    "ok": 297,
+    "ok": 295,
     "broken": 1,
     "blocked_by_host": 22,
     "skipped": false
   },
   "stale_sources": [],
-  "added": [
-    {
-      "id": "aa:au:270904",
-      "fellowship": "AA",
-      "name": "Katherine Alcoholics Anonymous Sunday",
-      "format": "in_person",
-      "state": "NT"
-    },
-    {
-      "id": "aa:au:272096",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Monday",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272099",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Tuesday",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272100",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Wednesday",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272101",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Thursday",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272102",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Friday",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272103",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Saturday",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272104",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Sunday",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "aa:au:272109",
-      "fellowship": "AA",
-      "name": "Bulimba Freethinkers/Secular",
-      "format": "in_person",
-      "state": "QLD"
-    },
-    {
-      "id": "aa:au:272111",
-      "fellowship": "AA",
-      "name": "Bridgeman Downs Joys of Recovery",
-      "format": "in_person",
-      "state": "QLD"
-    }
-  ],
+  "added": [],
   "removed": [
     {
-      "id": "aa:au:270896",
+      "id": "aa:au:261264",
       "fellowship": "AA",
-      "name": "Women's AA Book Group",
+      "name": "Yeddung Wednesday",
+      "format": "in_person",
+      "state": "ACT"
+    },
+    {
+      "id": "na:au:2436",
+      "fellowship": "NA",
+      "name": "Yarraville Friday - Mystery Meeting, SPAD, popcorn.",
+      "format": "hybrid",
+      "state": "VIC"
+    },
+    {
+      "id": "na:au:3609",
+      "fellowship": "NA",
+      "name": "Bloomfield Beginners Orange",
+      "format": "in_person",
+      "state": "NSW"
+    },
+    {
+      "id": "na:au:3855",
+      "fellowship": "NA",
+      "name": "TRS group - Residents only",
       "format": "in_person",
       "state": "QLD"
     }
   ],
   "changed": [
     {
-      "id": "aa:au:251254",
-      "fellowship": "AA",
-      "name": "Cairns Monday Night Big Book Meeting",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:251553",
-      "fellowship": "AA",
-      "name": "Bridgeman Downs Steps and Traditions Tuesday",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:252712",
-      "fellowship": "AA",
-      "name": "Bridgeman Downs Big Book Wednesday",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:254273",
-      "fellowship": "AA",
-      "name": "Carseldine Higher Power Topic Friday",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:254331",
-      "fellowship": "AA",
-      "name": "New Farm Jay-walker Recovery Topics",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "aa:au:257298",
-      "fellowship": "AA",
-      "name": "Joys of Recovery Sunday",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:271400",
-      "fellowship": "AA",
-      "name": "Everton Park (EP) Open Group",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "name",
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:271476",
-      "fellowship": "AA",
-      "name": "Alcoholics Anonymous Auslan Tuesday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:271647",
-      "fellowship": "AA",
-      "name": "Bracken Ridge Women's AA Book Group",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "na:au:2754",
+      "id": "na:au:3433",
       "fellowship": "NA",
-      "name": "Goulburn Friday Speakers",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name",
-        "tags",
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:2911",
-      "fellowship": "NA",
-      "name": "Goulburn Mens Meeting",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3356",
-      "fellowship": "NA",
-      "name": "Saturday Online Steps & Trads",
+      "name": "Lismore Wednesday Online",
       "format": "online",
       "state": "NSW",
       "fields": [
         "notes",
         "schedule",
         "online"
-      ]
-    },
-    {
-      "id": "na:au:4034",
-      "fellowship": "NA",
-      "name": "Goulburn Thursday Steps",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name"
       ]
     }
   ],
