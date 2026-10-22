@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-21T16:28:02.142400+00:00",
-  "report_day": "2026-10-22",
-  "previous_count": 2960,
+  "generated_at": "2026-10-22T16:30:42.447580+00:00",
+  "report_day": "2026-10-23",
+  "previous_count": 2956,
   "current_count": 2956,
   "added_count": 0,
-  "removed_count": 4,
-  "changed_count": 1,
+  "removed_count": 0,
+  "changed_count": 9,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -17,47 +17,96 @@
   },
   "stale_sources": [],
   "added": [],
-  "removed": [
-    {
-      "id": "aa:au:261264",
-      "fellowship": "AA",
-      "name": "Yeddung Wednesday",
-      "format": "in_person",
-      "state": "ACT"
-    },
-    {
-      "id": "na:au:2436",
-      "fellowship": "NA",
-      "name": "Yarraville Friday - Mystery Meeting, SPAD, popcorn.",
-      "format": "hybrid",
-      "state": "VIC"
-    },
-    {
-      "id": "na:au:3609",
-      "fellowship": "NA",
-      "name": "Bloomfield Beginners Orange",
-      "format": "in_person",
-      "state": "NSW"
-    },
-    {
-      "id": "na:au:3855",
-      "fellowship": "NA",
-      "name": "TRS group - Residents only",
-      "format": "in_person",
-      "state": "QLD"
-    }
-  ],
+  "removed": [],
   "changed": [
     {
-      "id": "na:au:3433",
-      "fellowship": "NA",
-      "name": "Lismore Wednesday Online",
+      "id": "aa:au:251909",
+      "fellowship": "AA",
+      "name": "Margaret River Literature Tuesday",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:254114",
+      "fellowship": "AA",
+      "name": "Kitchen Table Friday Eastwood",
+      "format": "in_person",
+      "state": "SA",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "aa:au:272096",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Monday",
       "format": "online",
       "state": "NSW",
       "fields": [
-        "notes",
-        "schedule",
-        "online"
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:272099",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Tuesday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:272100",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Wednesday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:272101",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Thursday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:272102",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Friday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:272103",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Saturday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:272104",
+      "fellowship": "AA",
+      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Sunday",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "notes"
       ]
     }
   ],
