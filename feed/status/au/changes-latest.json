@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-22T16:30:42.447580+00:00",
-  "report_day": "2026-10-23",
+  "generated_at": "2026-10-23T16:30:59.920249+00:00",
+  "report_day": "2026-10-24",
   "previous_count": 2956,
-  "current_count": 2956,
+  "current_count": 2955,
   "added_count": 0,
-  "removed_count": 0,
-  "changed_count": 9,
+  "removed_count": 1,
+  "changed_count": 5,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -17,96 +17,69 @@
   },
   "stale_sources": [],
   "added": [],
-  "removed": [],
+  "removed": [
+    {
+      "id": "aa:au:253272",
+      "fellowship": "AA",
+      "name": "Gully Primary Purpose Ferntree Gully Thursday",
+      "format": "in_person",
+      "state": "VIC"
+    }
+  ],
   "changed": [
     {
-      "id": "aa:au:251909",
+      "id": "aa:au:253571",
       "fellowship": "AA",
-      "name": "Margaret River Literature Tuesday",
+      "name": "Geelong Womens Thursday",
       "format": "in_person",
-      "state": "WA",
+      "state": "VIC",
       "fields": [
-        "notes"
+        "name",
+        "schedule"
       ]
     },
     {
-      "id": "aa:au:254114",
-      "fellowship": "AA",
-      "name": "Kitchen Table Friday Eastwood",
+      "id": "na:au:2794",
+      "fellowship": "NA",
+      "name": "Goulburn Tuesday Yurt Meeting",
       "format": "in_person",
-      "state": "SA",
+      "state": "NSW",
       "fields": [
         "name"
       ]
     },
     {
-      "id": "aa:au:272096",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Monday",
+      "id": "na:au:2812",
+      "fellowship": "NA",
+      "name": "Goulburn Sunday Meeting",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name",
+        "tags",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3450",
+      "fellowship": "NA",
+      "name": "Sydney Late Nighters revamped! One hour of power!",
       "format": "online",
       "state": "NSW",
       "fields": [
+        "tags",
         "notes"
       ]
     },
     {
-      "id": "aa:au:272099",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Tuesday",
-      "format": "online",
+      "id": "na:au:4034",
+      "fellowship": "NA",
+      "name": "Goulburn Thursday Steps Meeting",
+      "format": "in_person",
       "state": "NSW",
       "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:272100",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Wednesday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:272101",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Thursday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:272102",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Friday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:272103",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Saturday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:272104",
-      "fellowship": "AA",
-      "name": "G.O.D. Group of Drunks International Daily Circle and Triangle Sunday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "notes"
+        "name",
+        "schedule"
       ]
     }
   ],
