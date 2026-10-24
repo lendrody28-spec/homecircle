@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-23T16:30:59.920249+00:00",
-  "report_day": "2026-10-24",
-  "previous_count": 2956,
+  "generated_at": "2026-10-24T16:22:36.521600+00:00",
+  "report_day": "2026-10-25",
+  "previous_count": 2955,
   "current_count": 2955,
   "added_count": 0,
-  "removed_count": 1,
-  "changed_count": 5,
+  "removed_count": 0,
+  "changed_count": 0,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -17,72 +17,8 @@
   },
   "stale_sources": [],
   "added": [],
-  "removed": [
-    {
-      "id": "aa:au:253272",
-      "fellowship": "AA",
-      "name": "Gully Primary Purpose Ferntree Gully Thursday",
-      "format": "in_person",
-      "state": "VIC"
-    }
-  ],
-  "changed": [
-    {
-      "id": "aa:au:253571",
-      "fellowship": "AA",
-      "name": "Geelong Womens Thursday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "name",
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:2794",
-      "fellowship": "NA",
-      "name": "Goulburn Tuesday Yurt Meeting",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "na:au:2812",
-      "fellowship": "NA",
-      "name": "Goulburn Sunday Meeting",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name",
-        "tags",
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3450",
-      "fellowship": "NA",
-      "name": "Sydney Late Nighters revamped! One hour of power!",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "tags",
-        "notes"
-      ]
-    },
-    {
-      "id": "na:au:4034",
-      "fellowship": "NA",
-      "name": "Goulburn Thursday Steps Meeting",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name",
-        "schedule"
-      ]
-    }
-  ],
+  "removed": [],
+  "changed": [],
   "broken_links": [
     {
       "id": "na:au:2510",
