@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-25T16:22:47.418250+00:00",
-  "report_day": "2026-10-26",
+  "generated_at": "2026-10-26T16:41:45.112035+00:00",
+  "report_day": "2026-10-27",
   "previous_count": 2955,
-  "current_count": 2955,
+  "current_count": 2954,
   "added_count": 0,
-  "removed_count": 0,
-  "changed_count": 14,
+  "removed_count": 1,
+  "changed_count": 6,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -17,142 +17,70 @@
   },
   "stale_sources": [],
   "added": [],
-  "removed": [],
+  "removed": [
+    {
+      "id": "na:au:2288",
+      "fellowship": "NA",
+      "name": "Just For Today",
+      "format": "in_person",
+      "state": "SA"
+    }
+  ],
   "changed": [
     {
-      "id": "aa:au:251385",
+      "id": "aa:au:251126",
       "fellowship": "AA",
-      "name": "MaD-HaTTeRs Meeting Monday",
-      "format": "online",
+      "name": "CROOKWELL MONDAY MEETING ID FORMAT",
+      "format": "in_person",
       "state": "NSW",
       "fields": [
-        "schedule"
+        "notes"
       ]
     },
     {
-      "id": "aa:au:256457",
+      "id": "aa:au:251475",
       "fellowship": "AA",
-      "name": "Mad-HaTTeRs Meeting Tuesday",
-      "format": "online",
-      "state": "NSW",
+      "name": "Myrtleford Monday",
+      "format": "in_person",
+      "state": "VIC",
       "fields": [
-        "schedule"
+        "notes"
       ]
     },
     {
-      "id": "aa:au:256458",
+      "id": "aa:au:251997",
       "fellowship": "AA",
-      "name": "MaD-HaTTeRs Meeting Thursday",
-      "format": "online",
+      "name": "Goulburn Tuesday",
+      "format": "in_person",
       "state": "NSW",
       "fields": [
-        "schedule"
+        "notes"
       ]
     },
     {
-      "id": "aa:au:256479",
+      "id": "aa:au:255502",
       "fellowship": "AA",
-      "name": "MaD-HaTTeRs Meeting Friday",
-      "format": "online",
+      "name": "Port Macquarie Sunday",
+      "format": "in_person",
       "state": "NSW",
       "fields": [
-        "schedule"
+        "location"
       ]
     },
     {
-      "id": "aa:au:256481",
+      "id": "aa:au:257944",
       "fellowship": "AA",
-      "name": "MaD-HaTTeRs Meeting Wednesday",
-      "format": "online",
-      "state": "NSW",
+      "name": "Coorparoo Sunday Steps and Traditions",
+      "format": "in_person",
+      "state": "QLD",
       "fields": [
-        "schedule"
+        "name"
       ]
     },
     {
-      "id": "aa:au:267718",
+      "id": "aa:au:272071",
       "fellowship": "AA",
-      "name": "MaD-HaTTeRs Meeting Sunday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:267720",
-      "fellowship": "AA",
-      "name": "MaD-HaTTeRs Meeting Saturday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:270886",
-      "fellowship": "AA",
-      "name": "MaD HaTTeRs Wednesday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:270890",
-      "fellowship": "AA",
-      "name": "MaD HaTTeRs Thursday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:270891",
-      "fellowship": "AA",
-      "name": "MaD HaTTeRs Friday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:270892",
-      "fellowship": "AA",
-      "name": "MaD HaTTeRs Saturday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:270893",
-      "fellowship": "AA",
-      "name": "MaD HaTTeRs Sunday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:270894",
-      "fellowship": "AA",
-      "name": "MaD HaTTeRs Monday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:270895",
-      "fellowship": "AA",
-      "name": "MaD HaTTeRs Tuesday",
+      "name": "FREEDOM WITH THE 12 STEPS SUNDAY AFTERNOON",
       "format": "online",
       "state": "NSW",
       "fields": [
