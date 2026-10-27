@@ -1,36 +1,46 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-26T16:41:45.112035+00:00",
-  "report_day": "2026-10-27",
-  "previous_count": 2955,
+  "generated_at": "2026-10-27T16:42:30.783051+00:00",
+  "report_day": "2026-10-28",
+  "previous_count": 2954,
   "current_count": 2954,
-  "added_count": 0,
+  "added_count": 1,
   "removed_count": 1,
-  "changed_count": 6,
+  "changed_count": 4,
   "broken_link_count": 1,
   "link_check": {
-    "ok": 295,
+    "ok": 296,
     "broken": 1,
     "blocked_by_host": 22,
     "skipped": false
   },
-  "stale_sources": [],
-  "added": [],
+  "stale_sources": [
+    "na-au-bmlt"
+  ],
+  "added": [
+    {
+      "id": "aa:au:272105",
+      "fellowship": "AA",
+      "name": "A Way Forward - Daily Reflections Monday",
+      "format": "online",
+      "state": "VIC"
+    }
+  ],
   "removed": [
     {
-      "id": "na:au:2288",
-      "fellowship": "NA",
-      "name": "Just For Today",
+      "id": "aa:au:250659",
+      "fellowship": "AA",
+      "name": "Burleigh Heads Young and Old Monday",
       "format": "in_person",
-      "state": "SA"
+      "state": "QLD"
     }
   ],
   "changed": [
     {
-      "id": "aa:au:251126",
+      "id": "aa:au:261567",
       "fellowship": "AA",
-      "name": "CROOKWELL MONDAY MEETING ID FORMAT",
+      "name": "Darlinghurst ID Tuesday 7pm",
       "format": "in_person",
       "state": "NSW",
       "fields": [
@@ -38,53 +48,35 @@
       ]
     },
     {
-      "id": "aa:au:251475",
+      "id": "aa:au:263833",
       "fellowship": "AA",
-      "name": "Myrtleford Monday",
+      "name": "Port Douglas Paradise Group Thursday",
       "format": "in_person",
-      "state": "VIC",
+      "state": "QLD",
       "fields": [
-        "notes"
+        "schedule"
       ]
     },
     {
-      "id": "aa:au:251997",
+      "id": "aa:au:267809",
       "fellowship": "AA",
-      "name": "Goulburn Tuesday",
-      "format": "in_person",
+      "name": "International Three Legacies Wednesday",
+      "format": "online",
       "state": "NSW",
       "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:255502",
-      "fellowship": "AA",
-      "name": "Port Macquarie Sunday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
+        "schedule",
         "location"
       ]
     },
     {
-      "id": "aa:au:257944",
+      "id": "aa:au:268444",
       "fellowship": "AA",
-      "name": "Coorparoo Sunday Steps and Traditions",
+      "name": "Ipswich Queens Park Topic",
       "format": "in_person",
       "state": "QLD",
       "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "aa:au:272071",
-      "fellowship": "AA",
-      "name": "FREEDOM WITH THE 12 STEPS SUNDAY AFTERNOON",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
+        "name",
+        "notes"
       ]
     }
   ],

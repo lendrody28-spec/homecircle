@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-26T16:41:45.112035+00:00",
+  "generated_at": "2026-10-27T16:42:30.783051+00:00",
   "meeting_count": 2954,
   "by_fellowship": {
     "AA": 2195,
@@ -9,17 +9,17 @@
   },
   "by_format": {
     "hybrid": 133,
-    "in_person": 2361,
-    "online": 460
+    "in_person": 2360,
+    "online": 461
   },
   "by_state": {
     "ACT": 61,
-    "NSW": 1146,
+    "NSW": 1147,
     "NT": 25,
-    "QLD": 626,
+    "QLD": 624,
     "SA": 147,
     "TAS": 52,
-    "VIC": 642,
+    "VIC": 643,
     "WA": 245,
     "unknown": 10
   },
@@ -28,7 +28,7 @@
     "first_nations": 13,
     "lgbtq": 67,
     "men": 76,
-    "open": 1080,
+    "open": 1079,
     "women": 163
   },
   "by_timezone_source": {
@@ -37,28 +37,22 @@
     "state": 2815
   },
   "with_coordinates": 2944,
-  "with_online_url": 574,
+  "with_online_url": 575,
   "with_online_phone": 219,
   "withheld": {
     "inactive": 57,
     "invalid": 0,
-    "outside_country": 0,
-    "temporarily_closed": 10,
-    "unpublished": 0
+    "temporarily_closed": 10
   },
   "sources": [
     {
       "id": "na-au-bmlt",
       "name": "NA Australia BMLT",
-      "status": "ok",
-      "fetched": 759,
-      "kept": 759,
-      "withheld": {
-        "unpublished": 0,
-        "outside_country": 0,
-        "invalid": 0
-      },
-      "error": null
+      "status": "error",
+      "fetched": 0,
+      "kept": 0,
+      "withheld": {},
+      "error": "Could not read robots.txt for https://www.na.org.au: Could not reach https://www.na.org.au/robots.txt: [Errno 101] Network is unreachable"
     },
     {
       "id": "aa-au-tsml",
@@ -97,7 +91,7 @@
     }
   ],
   "link_check": {
-    "ok": 295,
+    "ok": 296,
     "broken": 1,
     "blocked_by_host": 22,
     "skipped": false
