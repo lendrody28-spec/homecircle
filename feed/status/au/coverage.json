@@ -1,25 +1,25 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-27T16:42:30.783051+00:00",
-  "meeting_count": 2954,
+  "generated_at": "2026-10-28T20:51:14.153027+00:00",
+  "meeting_count": 2952,
   "by_fellowship": {
-    "AA": 2195,
+    "AA": 2193,
     "NA": 759
   },
   "by_format": {
     "hybrid": 133,
-    "in_person": 2360,
+    "in_person": 2358,
     "online": 461
   },
   "by_state": {
     "ACT": 61,
     "NSW": 1147,
     "NT": 25,
-    "QLD": 624,
+    "QLD": 623,
     "SA": 147,
     "TAS": 52,
-    "VIC": 643,
+    "VIC": 642,
     "WA": 245,
     "unknown": 10
   },
@@ -27,39 +27,45 @@
     "closed": 84,
     "first_nations": 13,
     "lgbtq": 67,
-    "men": 76,
-    "open": 1079,
-    "women": 163
+    "men": 75,
+    "open": 1078,
+    "women": 162
   },
   "by_timezone_source": {
     "country_default": 3,
-    "source": 136,
-    "state": 2815
+    "source": 138,
+    "state": 2811
   },
-  "with_coordinates": 2944,
+  "with_coordinates": 2942,
   "with_online_url": 575,
   "with_online_phone": 219,
   "withheld": {
     "inactive": 57,
     "invalid": 0,
-    "temporarily_closed": 10
+    "outside_country": 0,
+    "temporarily_closed": 10,
+    "unpublished": 0
   },
   "sources": [
     {
       "id": "na-au-bmlt",
       "name": "NA Australia BMLT",
-      "status": "error",
-      "fetched": 0,
-      "kept": 0,
-      "withheld": {},
-      "error": "Could not read robots.txt for https://www.na.org.au: Could not reach https://www.na.org.au/robots.txt: [Errno 101] Network is unreachable"
+      "status": "ok",
+      "fetched": 759,
+      "kept": 759,
+      "withheld": {
+        "unpublished": 0,
+        "outside_country": 0,
+        "invalid": 0
+      },
+      "error": null
     },
     {
       "id": "aa-au-tsml",
       "name": "AA Australia Meeting Guide feed",
       "status": "ok",
-      "fetched": 2262,
-      "kept": 2195,
+      "fetched": 2260,
+      "kept": 2193,
       "withheld": {
         "inactive": 57,
         "temporarily_closed": 10,

@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-27T16:42:30.783051+00:00",
-  "report_day": "2026-10-28",
+  "generated_at": "2026-10-28T20:51:14.153027+00:00",
+  "report_day": "2026-10-29",
   "previous_count": 2954,
-  "current_count": 2954,
-  "added_count": 1,
-  "removed_count": 1,
-  "changed_count": 4,
+  "current_count": 2952,
+  "added_count": 0,
+  "removed_count": 2,
+  "changed_count": 8,
   "broken_link_count": 1,
   "link_check": {
     "ok": 296,
@@ -15,68 +15,106 @@
     "blocked_by_host": 22,
     "skipped": false
   },
-  "stale_sources": [
-    "na-au-bmlt"
-  ],
-  "added": [
-    {
-      "id": "aa:au:272105",
-      "fellowship": "AA",
-      "name": "A Way Forward - Daily Reflections Monday",
-      "format": "online",
-      "state": "VIC"
-    }
-  ],
+  "stale_sources": [],
+  "added": [],
   "removed": [
     {
-      "id": "aa:au:250659",
+      "id": "aa:au:252241",
       "fellowship": "AA",
-      "name": "Burleigh Heads Young and Old Monday",
+      "name": "Richmond Mens Tuesday",
+      "format": "in_person",
+      "state": "VIC"
+    },
+    {
+      "id": "aa:au:268072",
+      "fellowship": "AA",
+      "name": "Women's Recovery Group Thursday",
       "format": "in_person",
       "state": "QLD"
     }
   ],
   "changed": [
     {
-      "id": "aa:au:261567",
+      "id": "aa:au:250935",
       "fellowship": "AA",
-      "name": "Darlinghurst ID Tuesday 7pm",
+      "name": "Anula Monday Daily Reflections",
       "format": "in_person",
-      "state": "NSW",
+      "state": "NT",
+      "fields": [
+        "name",
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:251826",
+      "fellowship": "AA",
+      "name": "Agnes Water Tuesday Big Book",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "aa:au:252208",
+      "fellowship": "AA",
+      "name": "Templestowe Tuesday",
+      "format": "in_person",
+      "state": "VIC",
       "fields": [
         "notes"
       ]
     },
     {
-      "id": "aa:au:263833",
+      "id": "aa:au:253986",
       "fellowship": "AA",
-      "name": "Port Douglas Paradise Group Thursday",
+      "name": "Margaret River Big Book/Step Study Friday",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:254236",
+      "fellowship": "AA",
+      "name": "Agnes Water Steps &amp; Trads Friday",
       "format": "in_person",
       "state": "QLD",
       "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "aa:au:270945",
+      "fellowship": "AA",
+      "name": "Frankston Promises Thursday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "na:au:2627",
+      "fellowship": "NA",
+      "name": "JFT Meeting",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes",
         "schedule"
       ]
     },
     {
-      "id": "aa:au:267809",
-      "fellowship": "AA",
-      "name": "International Three Legacies Wednesday",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:268444",
-      "fellowship": "AA",
-      "name": "Ipswich Queens Park Topic",
+      "id": "na:au:3343",
+      "fellowship": "NA",
+      "name": "Common Welfare",
       "format": "in_person",
-      "state": "QLD",
+      "state": "VIC",
       "fields": [
-        "name",
-        "notes"
+        "notes",
+        "schedule"
       ]
     }
   ],
