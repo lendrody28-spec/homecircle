@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-28T20:51:14.153027+00:00",
-  "report_day": "2026-10-29",
-  "previous_count": 2954,
-  "current_count": 2952,
+  "generated_at": "2026-10-29T20:56:15.053900+00:00",
+  "report_day": "2026-10-30",
+  "previous_count": 2952,
+  "current_count": 2951,
   "added_count": 0,
-  "removed_count": 2,
-  "changed_count": 8,
+  "removed_count": 1,
+  "changed_count": 12,
   "broken_link_count": 1,
   "link_check": {
     "ok": 296,
@@ -19,49 +19,62 @@
   "added": [],
   "removed": [
     {
-      "id": "aa:au:252241",
-      "fellowship": "AA",
-      "name": "Richmond Mens Tuesday",
-      "format": "in_person",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:268072",
-      "fellowship": "AA",
-      "name": "Women's Recovery Group Thursday",
-      "format": "in_person",
-      "state": "QLD"
+      "id": "na:au:3859",
+      "fellowship": "NA",
+      "name": "NA Online Australia - Midnight Blues",
+      "format": "online",
+      "state": "NSW"
     }
   ],
   "changed": [
     {
-      "id": "aa:au:250935",
+      "id": "aa:au:251197",
       "fellowship": "AA",
-      "name": "Anula Monday Daily Reflections",
+      "name": "Waverley Into Action Big Book Monday",
       "format": "in_person",
-      "state": "NT",
-      "fields": [
-        "name",
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:251826",
-      "fellowship": "AA",
-      "name": "Agnes Water Tuesday Big Book",
-      "format": "in_person",
-      "state": "QLD",
+      "state": "NSW",
       "fields": [
         "name"
       ]
     },
     {
-      "id": "aa:au:252208",
+      "id": "aa:au:251376",
       "fellowship": "AA",
-      "name": "Templestowe Tuesday",
+      "name": "Blackburn Big Book Study Monday",
       "format": "in_person",
       "state": "VIC",
       "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:251727",
+      "fellowship": "AA",
+      "name": "Nanango Recovery Wednesday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:251909",
+      "fellowship": "AA",
+      "name": "Margaret River Literature Tuesday",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:252898",
+      "fellowship": "AA",
+      "name": "Waverley Into Action Speakers Wednesday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name",
         "notes"
       ]
     },
@@ -76,19 +89,19 @@
       ]
     },
     {
-      "id": "aa:au:254236",
+      "id": "aa:au:254193",
       "fellowship": "AA",
-      "name": "Agnes Water Steps &amp; Trads Friday",
+      "name": "Waverley Into Action 12&amp;12 Friday",
       "format": "in_person",
-      "state": "QLD",
+      "state": "NSW",
       "fields": [
         "name"
       ]
     },
     {
-      "id": "aa:au:270945",
+      "id": "aa:au:268918",
       "fellowship": "AA",
-      "name": "Frankston Promises Thursday",
+      "name": "Rewards of AA Women's Group Friday",
       "format": "in_person",
       "state": "VIC",
       "fields": [
@@ -96,24 +109,45 @@
       ]
     },
     {
-      "id": "na:au:2627",
-      "fellowship": "NA",
-      "name": "JFT Meeting",
+      "id": "aa:au:271846",
+      "fellowship": "AA",
+      "name": "Nanango Monday",
       "format": "in_person",
-      "state": "VIC",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2098",
+      "fellowship": "NA",
+      "name": "Strathpine Mon - Steps and Traditions",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "notes",
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2342",
+      "fellowship": "NA",
+      "name": "Erskineville Monday",
+      "format": "in_person",
+      "state": "NSW",
       "fields": [
         "notes",
         "schedule"
       ]
     },
     {
-      "id": "na:au:3343",
+      "id": "na:au:3221",
       "fellowship": "NA",
-      "name": "Common Welfare",
-      "format": "in_person",
-      "state": "VIC",
+      "name": "Blue Mountains Women's Meeting",
+      "format": "online",
+      "state": "NSW",
       "fields": [
-        "notes",
         "schedule"
       ]
     }
