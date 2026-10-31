@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-30T20:33:26.752350+00:00",
+  "generated_at": "2026-10-31T19:46:42.936923+00:00",
   "meeting_count": 2956,
   "by_fellowship": {
     "AA": 2197,
@@ -28,7 +28,7 @@
     "first_nations": 13,
     "lgbtq": 67,
     "men": 76,
-    "open": 1078,
+    "open": 1077,
     "women": 162
   },
   "by_timezone_source": {

@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-30T20:33:26.752350+00:00",
-  "report_day": "2026-10-31",
-  "previous_count": 2951,
+  "generated_at": "2026-10-31T19:46:42.936923+00:00",
+  "report_day": "2026-11-01",
+  "previous_count": 2956,
   "current_count": 2956,
-  "added_count": 5,
-  "removed_count": 0,
-  "changed_count": 16,
+  "added_count": 1,
+  "removed_count": 1,
+  "changed_count": 1,
   "broken_link_count": 1,
   "link_check": {
     "ok": 296,
@@ -18,203 +18,31 @@
   "stale_sources": [],
   "added": [
     {
-      "id": "aa:au:272083",
+      "id": "aa:au:258622",
       "fellowship": "AA",
-      "name": "Our Primary Purpose South Melbourne Thursday",
+      "name": "Inverell Tuesday Night",
       "format": "in_person",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272107",
-      "fellowship": "AA",
-      "name": "A Way Forward - Daily Reflections Thursday",
-      "format": "online",
-      "state": "VIC"
-    },
-    {
-      "id": "aa:au:272136",
-      "fellowship": "AA",
-      "name": "Hervey Bay Serenity in the Bay",
-      "format": "in_person",
-      "state": "QLD"
-    },
-    {
-      "id": "aa:au:272139",
-      "fellowship": "AA",
-      "name": "Casuarina Men's Group Big Book Study Thursday",
-      "format": "in_person",
-      "state": "NT"
-    },
-    {
-      "id": "na:au:4035",
-      "fellowship": "NA",
-      "name": "Cranbourne Beginners Meeting",
-      "format": "in_person",
-      "state": "VIC"
+      "state": "NSW"
     }
   ],
-  "removed": [],
+  "removed": [
+    {
+      "id": "aa:au:253468",
+      "fellowship": "AA",
+      "name": "Inverell Thursday",
+      "format": "in_person",
+      "state": "NSW"
+    }
+  ],
   "changed": [
-    {
-      "id": "aa:au:250578",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Monday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:251343",
-      "fellowship": "AA",
-      "name": "Port Fairy Topic Monday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:251507",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Tuesday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:252350",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Wednesday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "notes",
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:252843",
-      "fellowship": "AA",
-      "name": "The Deal Mens Wednesday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:253190",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Thursday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:253918",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Friday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:254629",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Saturday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:255324",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds Online Sunday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:267907",
-      "fellowship": "AA",
-      "name": "Saturday Night Live AA(NT)",
-      "format": "in_person",
-      "state": "NT",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:269106",
-      "fellowship": "AA",
-      "name": "Port Pirie West Plain Language Big Book Meeting Thursday",
-      "format": "in_person",
-      "state": "SA",
-      "fields": [
-        "name"
-      ]
-    },
     {
       "id": "na:au:2391",
       "fellowship": "NA",
-      "name": "Parramatta Steps",
+      "name": "Parramatta 12 Steps",
       "format": "in_person",
       "state": "NSW",
       "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:2499",
-      "fellowship": "NA",
-      "name": "Shepparton Tuesday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "na:au:3072",
-      "fellowship": "NA",
-      "name": "Shepparton Thursday JFT",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "na:au:3073",
-      "fellowship": "NA",
-      "name": "South Shepparton Saturday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "na:au:3569",
-      "fellowship": "NA",
-      "name": "Party Mix",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule",
-        "location"
+        "name"
       ]
     }
   ],
