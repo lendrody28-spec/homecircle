@@ -1,48 +1,41 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-10-31T19:46:42.936923+00:00",
-  "report_day": "2026-11-01",
+  "generated_at": "2026-11-01T20:20:51.676885+00:00",
+  "report_day": "2026-11-02",
   "previous_count": 2956,
-  "current_count": 2956,
-  "added_count": 1,
+  "current_count": 2955,
+  "added_count": 0,
   "removed_count": 1,
   "changed_count": 1,
   "broken_link_count": 1,
   "link_check": {
-    "ok": 296,
+    "ok": 295,
     "broken": 1,
     "blocked_by_host": 22,
     "skipped": false
   },
   "stale_sources": [],
-  "added": [
-    {
-      "id": "aa:au:258622",
-      "fellowship": "AA",
-      "name": "Inverell Tuesday Night",
-      "format": "in_person",
-      "state": "NSW"
-    }
-  ],
+  "added": [],
   "removed": [
     {
-      "id": "aa:au:253468",
+      "id": "aa:au:255018",
       "fellowship": "AA",
-      "name": "Inverell Thursday",
-      "format": "in_person",
+      "name": "Newtown Saturday Night Sober",
+      "format": "online",
       "state": "NSW"
     }
   ],
   "changed": [
     {
-      "id": "na:au:2391",
+      "id": "na:au:3611",
       "fellowship": "NA",
-      "name": "Parramatta 12 Steps",
+      "name": "Power of Recovery: First 3 steps and traditions",
       "format": "in_person",
       "state": "NSW",
       "fields": [
-        "name"
+        "name",
+        "schedule"
       ]
     }
   ],
