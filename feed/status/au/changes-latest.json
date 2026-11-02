@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-01T20:20:51.676885+00:00",
-  "report_day": "2026-11-02",
-  "previous_count": 2956,
+  "generated_at": "2026-11-02T23:21:38.660152+00:00",
+  "report_day": "2026-11-03",
+  "previous_count": 2955,
   "current_count": 2955,
-  "added_count": 0,
+  "added_count": 1,
   "removed_count": 1,
-  "changed_count": 1,
+  "changed_count": 12,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -16,25 +16,147 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [],
+  "added": [
+    {
+      "id": "na:au:4040",
+      "fellowship": "NA",
+      "name": "Lightning Ridge NA Group",
+      "format": "in_person",
+      "state": "NSW"
+    }
+  ],
   "removed": [
     {
-      "id": "aa:au:255018",
+      "id": "aa:au:252015",
       "fellowship": "AA",
-      "name": "Newtown Saturday Night Sober",
-      "format": "online",
-      "state": "NSW"
+      "name": "Northbridge 'Rainbow' Tuesday",
+      "format": "in_person",
+      "state": "WA"
     }
   ],
   "changed": [
     {
-      "id": "na:au:3611",
-      "fellowship": "NA",
-      "name": "Power of Recovery: First 3 steps and traditions",
+      "id": "aa:au:253669",
+      "fellowship": "AA",
+      "name": "Warilla Steps and Traditions Thursday",
       "format": "in_person",
       "state": "NSW",
       "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:254193",
+      "fellowship": "AA",
+      "name": "Waverley Into Action 12 and 12 Friday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "id": "na:au:2665",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2751",
+      "fellowship": "NA",
+      "name": "Richmond Women’s",
+      "format": "hybrid",
+      "state": "VIC",
+      "fields": [
+        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3088",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3089",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3090",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3091",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3122",
+      "fellowship": "NA",
+      "name": "Boronia Topic Meeting",
+      "format": "hybrid",
+      "state": "VIC",
+      "fields": [
         "name",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3563",
+      "fellowship": "NA",
+      "name": "Hot Mess LGBTIQA+",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3693",
+      "fellowship": "NA",
+      "name": "Southside Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "notes",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4029",
+      "fellowship": "NA",
+      "name": "Yarning Moort",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "notes",
         "schedule"
       ]
     }
