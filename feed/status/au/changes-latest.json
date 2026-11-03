@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-02T23:21:38.660152+00:00",
-  "report_day": "2026-11-03",
+  "generated_at": "2026-11-03T21:35:41.111193+00:00",
+  "report_day": "2026-11-04",
   "previous_count": 2955,
-  "current_count": 2955,
+  "current_count": 2956,
   "added_count": 1,
-  "removed_count": 1,
-  "changed_count": 12,
+  "removed_count": 0,
+  "changed_count": 46,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -18,145 +18,495 @@
   "stale_sources": [],
   "added": [
     {
-      "id": "na:au:4040",
-      "fellowship": "NA",
-      "name": "Lightning Ridge NA Group",
-      "format": "in_person",
-      "state": "NSW"
-    }
-  ],
-  "removed": [
-    {
-      "id": "aa:au:252015",
+      "id": "aa:au:272120",
       "fellowship": "AA",
-      "name": "Northbridge 'Rainbow' Tuesday",
+      "name": "Big Book Women - Our Common Solution Monday",
       "format": "in_person",
-      "state": "WA"
+      "state": "VIC"
     }
   ],
+  "removed": [],
   "changed": [
     {
-      "id": "aa:au:253669",
+      "id": "aa:au:251376",
       "fellowship": "AA",
-      "name": "Warilla Steps and Traditions Thursday",
+      "name": "Blackburn Big Book Study Monday",
       "format": "in_person",
-      "state": "NSW",
+      "state": "VIC",
       "fields": [
         "notes"
       ]
     },
     {
-      "id": "aa:au:254193",
+      "id": "aa:au:252614",
       "fellowship": "AA",
-      "name": "Waverley Into Action 12 and 12 Friday",
+      "name": "Gold Coast Mens Wednesday",
       "format": "in_person",
-      "state": "NSW",
+      "state": "QLD",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:253688",
+      "fellowship": "AA",
+      "name": "Townsville Warburton Street Steps/ID",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:254250",
+      "fellowship": "AA",
+      "name": "Broadbeach The Way Out, Big Book Study / Speaker Friday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "name",
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:269792",
+      "fellowship": "AA",
+      "name": "East Brisbane Monday Daily Reflections",
+      "format": "in_person",
+      "state": "QLD",
       "fields": [
         "name"
       ]
     },
     {
-      "id": "na:au:2665",
+      "id": "na:au:2442",
       "fellowship": "NA",
-      "name": "North Perth Lunchie",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:2751",
-      "fellowship": "NA",
-      "name": "Richmond Women’s",
-      "format": "hybrid",
+      "name": "Melbourne Monday LGBTI",
+      "format": "online",
       "state": "VIC",
       "fields": [
-        "notes",
         "schedule"
       ]
     },
     {
-      "id": "na:au:3088",
+      "id": "na:au:2739",
       "fellowship": "NA",
-      "name": "North Perth Lunchie",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3089",
-      "fellowship": "NA",
-      "name": "North Perth Lunchie",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3090",
-      "fellowship": "NA",
-      "name": "North Perth Lunchie",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3091",
-      "fellowship": "NA",
-      "name": "North Perth Lunchie",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3122",
-      "fellowship": "NA",
-      "name": "Boronia Topic Meeting",
-      "format": "hybrid",
+      "name": "Geelong Lotus Meeting (Womens)",
+      "format": "online",
       "state": "VIC",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2925",
+      "fellowship": "NA",
+      "name": "Parramatta Mens",
+      "format": "in_person",
+      "state": "NSW",
       "fields": [
         "name",
         "schedule"
       ]
     },
     {
-      "id": "na:au:3563",
+      "id": "na:au:2937",
       "fellowship": "NA",
-      "name": "Hot Mess LGBTIQA+",
+      "name": "Broken Hill NA",
       "format": "in_person",
-      "state": "VIC",
+      "state": "NSW",
       "fields": [
-        "notes",
         "schedule"
       ]
     },
     {
-      "id": "na:au:3693",
+      "id": "na:au:2969",
       "fellowship": "NA",
-      "name": "Southside Lunchie",
-      "format": "in_person",
-      "state": "WA",
+      "name": "Raymond terrace JFT",
+      "format": "hybrid",
+      "state": "NSW",
       "fields": [
-        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3210",
+      "fellowship": "NA",
+      "name": "Freethinkers, Atheists and Agnostics",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "schedule",
         "location"
       ]
     },
     {
-      "id": "na:au:4029",
+      "id": "na:au:3252",
       "fellowship": "NA",
-      "name": "Yarning Moort",
-      "format": "in_person",
-      "state": "WA",
+      "name": "Online Meeting - Central Coast Lunchtime",
+      "format": "online",
+      "state": "NSW",
       "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3253",
+      "fellowship": "NA",
+      "name": "Online Meeting - Central Coast Lunchtime",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3255",
+      "fellowship": "NA",
+      "name": "Online Meeting - Central Coast Lunchtime",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3257",
+      "fellowship": "NA",
+      "name": "Online Meeting - Central Coast Lunchtime",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3258",
+      "fellowship": "NA",
+      "name": "Online Meeting - Central Coast Lunchtime",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3259",
+      "fellowship": "NA",
+      "name": "Online Meeting - Central Coast Lunchtime",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3405",
+      "fellowship": "NA",
+      "name": "Merrylands Farsi NA Meeting",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3407",
+      "fellowship": "NA",
+      "name": "Terrigal",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3408",
+      "fellowship": "NA",
+      "name": "Early Bird Gratitude",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3431",
+      "fellowship": "NA",
+      "name": "Spinners Are Winners Online Edition",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3433",
+      "fellowship": "NA",
+      "name": "Lismore Wednesday Online",
+      "format": "online",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3558",
+      "fellowship": "NA",
+      "name": "Gippie Womens Meeting",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3639",
+      "fellowship": "NA",
+      "name": "Wonthaggi Living Clean",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3669",
+      "fellowship": "NA",
+      "name": "Grove Pavilion",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3674",
+      "fellowship": "NA",
+      "name": "Sunshine coast men's meeting",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3676",
+      "fellowship": "NA",
+      "name": "Sunday Starter",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3678",
+      "fellowship": "NA",
+      "name": "Tuesday Concord",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3681",
+      "fellowship": "NA",
+      "name": "Caboolture Monday night mens",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3686",
+      "fellowship": "NA",
+      "name": "Rosewood Beginners Meeting",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3692",
+      "fellowship": "NA",
+      "name": "Lithgow Spiritual Principle a Day",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3700",
+      "fellowship": "NA",
+      "name": "Beginners Meeting",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3704",
+      "fellowship": "NA",
+      "name": "Newtown Women’s NA",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3708",
+      "fellowship": "NA",
+      "name": "Kyneton Freedom Friday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3711",
+      "fellowship": "NA",
+      "name": "Kandos",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3715",
+      "fellowship": "NA",
+      "name": "Long Jetty Living Clean",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3720",
+      "fellowship": "NA",
+      "name": "Monday Night Guiding principles",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3789",
+      "fellowship": "NA",
+      "name": "'Just for Today' & Basic Text study",
+      "format": "hybrid",
+      "state": "SA",
+      "fields": [
+        "name",
+        "format",
         "notes",
+        "schedule",
+        "location",
+        "online"
+      ]
+    },
+    {
+      "id": "na:au:4010",
+      "fellowship": "NA",
+      "name": "Downunder Marathon Meeting 18 hrs",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4013",
+      "fellowship": "NA",
+      "name": "Downunder Marathon Meeting 18 hrs",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4014",
+      "fellowship": "NA",
+      "name": "Downunder Marathon Meeting 18 hrs",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4017",
+      "fellowship": "NA",
+      "name": "Downunder Marathon Meeting 18 hrs",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4018",
+      "fellowship": "NA",
+      "name": "Downunder Marathon Meeting 18 hrs",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4020",
+      "fellowship": "NA",
+      "name": "Downunder Marathon Meeting 18 hrs",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4021",
+      "fellowship": "NA",
+      "name": "Downunder Marathon Meeting 18 hrs",
+      "format": "online",
+      "state": "VIC",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4031",
+      "fellowship": "NA",
+      "name": "Living Free - Cairns Online",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
         "schedule"
       ]
     }
