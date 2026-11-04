@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-03T21:35:41.111193+00:00",
-  "report_day": "2026-11-04",
-  "previous_count": 2955,
-  "current_count": 2956,
+  "generated_at": "2026-11-04T21:45:12.282346+00:00",
+  "report_day": "2026-11-05",
+  "previous_count": 2956,
+  "current_count": 2955,
   "added_count": 1,
-  "removed_count": 0,
-  "changed_count": 46,
+  "removed_count": 2,
+  "changed_count": 9,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -18,19 +18,44 @@
   "stale_sources": [],
   "added": [
     {
-      "id": "aa:au:272120",
+      "id": "aa:au:272151",
       "fellowship": "AA",
-      "name": "Big Book Women - Our Common Solution Monday",
+      "name": "11th Step Port Macquarie Saturday",
+      "format": "in_person",
+      "state": "NSW"
+    }
+  ],
+  "removed": [
+    {
+      "id": "aa:au:267640",
+      "fellowship": "AA",
+      "name": "Yarra Junction ID Saturday",
+      "format": "in_person",
+      "state": "VIC"
+    },
+    {
+      "id": "na:au:3976",
+      "fellowship": "NA",
+      "name": "Our program - written so simply. BASIC TXT",
       "format": "in_person",
       "state": "VIC"
     }
   ],
-  "removed": [],
   "changed": [
     {
-      "id": "aa:au:251376",
+      "id": "aa:au:252006",
       "fellowship": "AA",
-      "name": "Blackburn Big Book Study Monday",
+      "name": "Toowoomba Recovery ID Tuesday",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:252251",
+      "fellowship": "AA",
+      "name": "Coburg Tuesday",
       "format": "in_person",
       "state": "VIC",
       "fields": [
@@ -38,50 +63,39 @@
       ]
     },
     {
-      "id": "aa:au:252614",
+      "id": "aa:au:268371",
       "fellowship": "AA",
-      "name": "Gold Coast Mens Wednesday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "The Shivering Denizens One – Daily AA Tuesday",
+      "format": "online",
+      "state": "VIC",
       "fields": [
-        "location"
+        "schedule"
       ]
     },
     {
-      "id": "aa:au:253688",
+      "id": "aa:au:268380",
       "fellowship": "AA",
-      "name": "Townsville Warburton Street Steps/ID",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "The Shivering Denizens One – Daily AA Monday",
+      "format": "online",
+      "state": "VIC",
       "fields": [
         "schedule"
       ]
     },
     {
-      "id": "aa:au:254250",
+      "id": "aa:au:268382",
       "fellowship": "AA",
-      "name": "Broadbeach The Way Out, Big Book Study / Speaker Friday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "The Shivering Denizens One – Daily AA Wednesday",
+      "format": "online",
+      "state": "VIC",
       "fields": [
-        "name",
-        "location"
+        "schedule"
       ]
     },
     {
-      "id": "aa:au:269792",
+      "id": "aa:au:268383",
       "fellowship": "AA",
-      "name": "East Brisbane Monday Daily Reflections",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "na:au:2442",
-      "fellowship": "NA",
-      "name": "Melbourne Monday LGBTI",
+      "name": "The Shivering Denizens One – Daily AA Thursday",
       "format": "online",
       "state": "VIC",
       "fields": [
@@ -89,423 +103,31 @@
       ]
     },
     {
-      "id": "na:au:2739",
-      "fellowship": "NA",
-      "name": "Geelong Lotus Meeting (Womens)",
+      "id": "aa:au:268384",
+      "fellowship": "AA",
+      "name": "The Shivering Denizens One – Daily AA Friday",
       "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:2925",
-      "fellowship": "NA",
-      "name": "Parramatta Mens",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name",
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:2937",
-      "fellowship": "NA",
-      "name": "Broken Hill NA",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:2969",
-      "fellowship": "NA",
-      "name": "Raymond terrace JFT",
-      "format": "hybrid",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3210",
-      "fellowship": "NA",
-      "name": "Freethinkers, Atheists and Agnostics",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3252",
-      "fellowship": "NA",
-      "name": "Online Meeting - Central Coast Lunchtime",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3253",
-      "fellowship": "NA",
-      "name": "Online Meeting - Central Coast Lunchtime",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3255",
-      "fellowship": "NA",
-      "name": "Online Meeting - Central Coast Lunchtime",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3257",
-      "fellowship": "NA",
-      "name": "Online Meeting - Central Coast Lunchtime",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3258",
-      "fellowship": "NA",
-      "name": "Online Meeting - Central Coast Lunchtime",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3259",
-      "fellowship": "NA",
-      "name": "Online Meeting - Central Coast Lunchtime",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3405",
-      "fellowship": "NA",
-      "name": "Merrylands Farsi NA Meeting",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3407",
-      "fellowship": "NA",
-      "name": "Terrigal",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3408",
-      "fellowship": "NA",
-      "name": "Early Bird Gratitude",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3431",
-      "fellowship": "NA",
-      "name": "Spinners Are Winners Online Edition",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3433",
-      "fellowship": "NA",
-      "name": "Lismore Wednesday Online",
-      "format": "online",
-      "state": "NSW",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3558",
-      "fellowship": "NA",
-      "name": "Gippie Womens Meeting",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3639",
-      "fellowship": "NA",
-      "name": "Wonthaggi Living Clean",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3669",
-      "fellowship": "NA",
-      "name": "Grove Pavilion",
-      "format": "in_person",
       "state": "VIC",
       "fields": [
         "schedule"
       ]
     },
     {
-      "id": "na:au:3674",
-      "fellowship": "NA",
-      "name": "Sunshine coast men's meeting",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3676",
-      "fellowship": "NA",
-      "name": "Sunday Starter",
-      "format": "in_person",
-      "state": "NSW",
+      "id": "aa:au:268385",
+      "fellowship": "AA",
+      "name": "The Shivering Denizens One – Daily AA Saturday",
+      "format": "online",
+      "state": "VIC",
       "fields": [
         "schedule"
       ]
     },
     {
-      "id": "na:au:3678",
-      "fellowship": "NA",
-      "name": "Tuesday Concord",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3681",
-      "fellowship": "NA",
-      "name": "Caboolture Monday night mens",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3686",
-      "fellowship": "NA",
-      "name": "Rosewood Beginners Meeting",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3692",
-      "fellowship": "NA",
-      "name": "Lithgow Spiritual Principle a Day",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3700",
-      "fellowship": "NA",
-      "name": "Beginners Meeting",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3704",
-      "fellowship": "NA",
-      "name": "Newtown Women’s NA",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3708",
-      "fellowship": "NA",
-      "name": "Kyneton Freedom Friday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3711",
-      "fellowship": "NA",
-      "name": "Kandos",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3715",
-      "fellowship": "NA",
-      "name": "Long Jetty Living Clean",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3720",
-      "fellowship": "NA",
-      "name": "Monday Night Guiding principles",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3789",
-      "fellowship": "NA",
-      "name": "'Just for Today' & Basic Text study",
-      "format": "hybrid",
-      "state": "SA",
-      "fields": [
-        "name",
-        "format",
-        "notes",
-        "schedule",
-        "location",
-        "online"
-      ]
-    },
-    {
-      "id": "na:au:4010",
-      "fellowship": "NA",
-      "name": "Downunder Marathon Meeting 18 hrs",
+      "id": "aa:au:268386",
+      "fellowship": "AA",
+      "name": "The Shivering Denizens One – Daily AA Sunday",
       "format": "online",
       "state": "VIC",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:4013",
-      "fellowship": "NA",
-      "name": "Downunder Marathon Meeting 18 hrs",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:4014",
-      "fellowship": "NA",
-      "name": "Downunder Marathon Meeting 18 hrs",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:4017",
-      "fellowship": "NA",
-      "name": "Downunder Marathon Meeting 18 hrs",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:4018",
-      "fellowship": "NA",
-      "name": "Downunder Marathon Meeting 18 hrs",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:4020",
-      "fellowship": "NA",
-      "name": "Downunder Marathon Meeting 18 hrs",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:4021",
-      "fellowship": "NA",
-      "name": "Downunder Marathon Meeting 18 hrs",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:4031",
-      "fellowship": "NA",
-      "name": "Living Free - Cairns Online",
-      "format": "online",
-      "state": "QLD",
       "fields": [
         "schedule"
       ]
