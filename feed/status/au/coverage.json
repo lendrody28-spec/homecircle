@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-04T21:45:12.282346+00:00",
+  "generated_at": "2026-11-05T21:49:23.446437+00:00",
   "meeting_count": 2955,
   "by_fellowship": {
     "AA": 2196,
@@ -31,8 +31,8 @@
     "women": 163
   },
   "by_timezone_source": {
-    "source": 182,
-    "state": 2773
+    "source": 184,
+    "state": 2771
   },
   "with_coordinates": 2955,
   "with_online_url": 574,

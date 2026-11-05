@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-04T21:45:12.282346+00:00",
-  "report_day": "2026-11-05",
-  "previous_count": 2956,
+  "generated_at": "2026-11-05T21:49:23.446437+00:00",
+  "report_day": "2026-11-06",
+  "previous_count": 2955,
   "current_count": 2955,
-  "added_count": 1,
-  "removed_count": 2,
-  "changed_count": 9,
+  "added_count": 0,
+  "removed_count": 0,
+  "changed_count": 5,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -16,120 +16,60 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [
-    {
-      "id": "aa:au:272151",
-      "fellowship": "AA",
-      "name": "11th Step Port Macquarie Saturday",
-      "format": "in_person",
-      "state": "NSW"
-    }
-  ],
-  "removed": [
-    {
-      "id": "aa:au:267640",
-      "fellowship": "AA",
-      "name": "Yarra Junction ID Saturday",
-      "format": "in_person",
-      "state": "VIC"
-    },
-    {
-      "id": "na:au:3976",
-      "fellowship": "NA",
-      "name": "Our program - written so simply. BASIC TXT",
-      "format": "in_person",
-      "state": "VIC"
-    }
-  ],
+  "added": [],
+  "removed": [],
   "changed": [
     {
-      "id": "aa:au:252006",
+      "id": "aa:au:252612",
       "fellowship": "AA",
-      "name": "Toowoomba Recovery ID Tuesday",
-      "format": "in_person",
-      "state": "QLD",
+      "name": "Kyogle Wednesday",
+      "format": "hybrid",
+      "state": "NSW",
       "fields": [
         "schedule"
       ]
     },
     {
-      "id": "aa:au:252251",
+      "id": "aa:au:252761",
       "fellowship": "AA",
-      "name": "Coburg Tuesday",
+      "name": "St Helens Wednesday",
+      "format": "in_person",
+      "state": "TAS",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:2912",
+      "fellowship": "NA",
+      "name": "Wyoming Wednesday-Beginners Steps 1-3",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3440",
+      "fellowship": "NA",
+      "name": "Tweed Heads - The NA Message - 5.30pm QLD",
+      "format": "hybrid",
+      "state": "NSW",
+      "fields": [
+        "name",
+        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3563",
+      "fellowship": "NA",
+      "name": "Hot Mess LGBTIQA+",
       "format": "in_person",
       "state": "VIC",
       "fields": [
         "notes"
-      ]
-    },
-    {
-      "id": "aa:au:268371",
-      "fellowship": "AA",
-      "name": "The Shivering Denizens One – Daily AA Tuesday",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268380",
-      "fellowship": "AA",
-      "name": "The Shivering Denizens One – Daily AA Monday",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268382",
-      "fellowship": "AA",
-      "name": "The Shivering Denizens One – Daily AA Wednesday",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268383",
-      "fellowship": "AA",
-      "name": "The Shivering Denizens One – Daily AA Thursday",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268384",
-      "fellowship": "AA",
-      "name": "The Shivering Denizens One – Daily AA Friday",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268385",
-      "fellowship": "AA",
-      "name": "The Shivering Denizens One – Daily AA Saturday",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268386",
-      "fellowship": "AA",
-      "name": "The Shivering Denizens One – Daily AA Sunday",
-      "format": "online",
-      "state": "VIC",
-      "fields": [
-        "schedule"
       ]
     }
   ],
