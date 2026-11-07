@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-06T21:22:31.999596+00:00",
-  "report_day": "2026-11-07",
-  "previous_count": 2955,
+  "generated_at": "2026-11-07T19:59:34.305378+00:00",
+  "report_day": "2026-11-08",
+  "previous_count": 2956,
   "current_count": 2956,
-  "added_count": 1,
+  "added_count": 0,
   "removed_count": 0,
-  "changed_count": 20,
+  "changed_count": 1,
   "broken_link_count": 1,
   "link_check": {
     "ok": 296,
@@ -16,223 +16,17 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [
-    {
-      "id": "aa:au:254989",
-      "fellowship": "AA",
-      "name": "GLBTQI Promises Katoomba Saturday",
-      "format": "online",
-      "state": "NSW"
-    }
-  ],
+  "added": [],
   "removed": [],
   "changed": [
     {
-      "id": "aa:au:250578",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Monday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "notes",
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:251507",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Tuesday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "notes",
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:252350",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Wednesday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:253190",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Thursday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "notes",
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:253918",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Friday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "notes",
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:254292",
-      "fellowship": "AA",
-      "name": "Apollo Bay Friday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:254629",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds online Saturday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "notes",
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:254806",
-      "fellowship": "AA",
-      "name": "Waverley Into Action Beginners Saturday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "aa:au:255324",
-      "fellowship": "AA",
-      "name": "Gold Coast International Early Birds Online Sunday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "notes",
-        "online"
-      ]
-    },
-    {
-      "id": "aa:au:255678",
-      "fellowship": "AA",
-      "name": "Waverley Into Action As Bill Sees It Sunday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name"
-      ]
-    },
-    {
-      "id": "aa:au:268353",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Shivering Denizens 2 Sunshine Coast",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268530",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Shivering Denizens 2 Sunshine Coast",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268531",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Shivering Denizens 2 Sunshine Coast",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268532",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Shivering Denizens 2 Sunshine Coast",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268533",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Shivering Denizens 2 Sunshine Coast",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268534",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Shivering Denizens 2 Sunshine Coast",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268535",
-      "fellowship": "AA",
-      "name": "Daily Lunchtime Shivering Denizens 2 Sunshine Coast",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3691",
+      "id": "na:au:2102",
       "fellowship": "NA",
-      "name": "Richmond Brunchie",
-      "format": "in_person",
-      "state": "VIC",
+      "name": "New Farm Saturday Night.",
+      "format": "hybrid",
+      "state": "QLD",
       "fields": [
-        "notes",
         "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3749",
-      "fellowship": "NA",
-      "name": "Surrender City",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes",
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3956",
-      "fellowship": "NA",
-      "name": "Loving Lunchie",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
       ]
     }
   ],
