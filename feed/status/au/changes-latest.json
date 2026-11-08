@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-07T19:59:34.305378+00:00",
-  "report_day": "2026-11-08",
+  "generated_at": "2026-11-08T20:17:25.410594+00:00",
+  "report_day": "2026-11-09",
   "previous_count": 2956,
-  "current_count": 2956,
-  "added_count": 0,
+  "current_count": 2957,
+  "added_count": 1,
   "removed_count": 0,
-  "changed_count": 1,
+  "changed_count": 19,
   "broken_link_count": 1,
   "link_check": {
     "ok": 296,
@@ -16,16 +16,220 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [],
+  "added": [
+    {
+      "id": "na:au:4041",
+      "fellowship": "NA",
+      "name": "Leeton Topic Wheel",
+      "format": "in_person",
+      "state": "NSW"
+    }
+  ],
   "removed": [],
   "changed": [
     {
-      "id": "na:au:2102",
-      "fellowship": "NA",
-      "name": "New Farm Saturday Night.",
-      "format": "hybrid",
-      "state": "QLD",
+      "id": "aa:au:254292",
+      "fellowship": "AA",
+      "name": "Apollo Bay Friday",
+      "format": "in_person",
+      "state": "VIC",
       "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:254893",
+      "fellowship": "AA",
+      "name": "Ballarat Serenity Saturday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "na:au:2329",
+      "fellowship": "NA",
+      "name": "Kings Cross Friday 7pm",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2341",
+      "fellowship": "NA",
+      "name": "Campbelltown Monday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2346",
+      "fellowship": "NA",
+      "name": "Merrylands Basic Text Inventory",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2369",
+      "fellowship": "NA",
+      "name": "Newtown Sunday - Steps and Traditions",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2371",
+      "fellowship": "NA",
+      "name": "North Curl Curl Steps and Traditions",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2400",
+      "fellowship": "NA",
+      "name": "Riverwood Thur ID/REC",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2414",
+      "fellowship": "NA",
+      "name": "Woolloomooloo Wednesday Lunchtime",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2417",
+      "fellowship": "NA",
+      "name": "Wednesday Women’s Meeting",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2652",
+      "fellowship": "NA",
+      "name": "Glebe Thu - Just for Today",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:2753",
+      "fellowship": "NA",
+      "name": "Tuesday Little Bay",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3704",
+      "fellowship": "NA",
+      "name": "Newtown Women’s NA",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3753",
+      "fellowship": "NA",
+      "name": "Hornsby Farsi language",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3851",
+      "fellowship": "NA",
+      "name": "Burwood Women's",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3910",
+      "fellowship": "NA",
+      "name": "Sutherland Saturdays",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3994",
+      "fellowship": "NA",
+      "name": "Bankstown Tuesday night",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3998",
+      "fellowship": "NA",
+      "name": "Dundas Farsi Meeting",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4024",
+      "fellowship": "NA",
+      "name": "NA Sunday Concord Topic Meeting",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "notes",
         "schedule"
       ]
     }
