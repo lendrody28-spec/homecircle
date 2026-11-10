@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-08T20:17:25.410594+00:00",
+  "generated_at": "2026-11-10T00:00:28.983970+00:00",
   "meeting_count": 2957,
   "by_fellowship": {
     "AA": 2197,
@@ -36,7 +36,7 @@
   },
   "with_coordinates": 2957,
   "with_online_url": 575,
-  "with_online_phone": 215,
+  "with_online_phone": 217,
   "withheld": {
     "inactive": 57,
     "invalid": 0,
