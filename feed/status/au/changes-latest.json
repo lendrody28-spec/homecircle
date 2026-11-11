@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-10T21:42:36.379212+00:00",
-  "report_day": "2026-11-11",
-  "previous_count": 2957,
-  "current_count": 2958,
-  "added_count": 1,
+  "generated_at": "2026-11-11T22:32:46.770331+00:00",
+  "report_day": "2026-11-12",
+  "previous_count": 2958,
+  "current_count": 2960,
+  "added_count": 2,
   "removed_count": 0,
-  "changed_count": 0,
+  "changed_count": 10,
   "broken_link_count": 1,
   "link_check": {
     "ok": 296,
@@ -18,15 +18,127 @@
   "stale_sources": [],
   "added": [
     {
-      "id": "aa:au:253866",
+      "id": "aa:au:272145",
       "fellowship": "AA",
-      "name": "Beechworth ID Thursday",
+      "name": "Early Bird Big Book Living Tuesday",
+      "format": "in_person",
+      "state": "NSW"
+    },
+    {
+      "id": "aa:au:272168",
+      "fellowship": "AA",
+      "name": "Wednesday Young People Brunswick",
       "format": "in_person",
       "state": "VIC"
     }
   ],
   "removed": [],
-  "changed": [],
+  "changed": [
+    {
+      "id": "aa:au:269829",
+      "fellowship": "AA",
+      "name": "Redfern Men’s Meeting (RMM) Wednesday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "tags",
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:271014",
+      "fellowship": "AA",
+      "name": "A New Freedom Friday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:272120",
+      "fellowship": "AA",
+      "name": "Big Book Women - Our Common Solution Monday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "na:au:2533",
+      "fellowship": "NA",
+      "name": "Northern Newcomers",
+      "format": "hybrid",
+      "state": "VIC",
+      "fields": [
+        "notes",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3088",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "notes",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3089",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3090",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3091",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3361",
+      "fellowship": "NA",
+      "name": "Bundaberg Newcomers",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3957",
+      "fellowship": "NA",
+      "name": "Coburg North ID Meeting",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes",
+        "schedule"
+      ]
+    }
+  ],
   "broken_links": [
     {
       "id": "na:au:2510",
