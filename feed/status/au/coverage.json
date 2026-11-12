@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-11T22:32:46.770331+00:00",
+  "generated_at": "2026-11-12T22:07:58.524837+00:00",
   "meeting_count": 2960,
   "by_fellowship": {
     "AA": 2200,
@@ -40,23 +40,17 @@
   "withheld": {
     "inactive": 56,
     "invalid": 0,
-    "outside_country": 0,
-    "temporarily_closed": 9,
-    "unpublished": 0
+    "temporarily_closed": 9
   },
   "sources": [
     {
       "id": "na-au-bmlt",
       "name": "NA Australia BMLT",
-      "status": "ok",
-      "fetched": 760,
-      "kept": 760,
-      "withheld": {
-        "unpublished": 0,
-        "outside_country": 0,
-        "invalid": 0
-      },
-      "error": null
+      "status": "error",
+      "fetched": 0,
+      "kept": 0,
+      "withheld": {},
+      "error": "Could not read robots.txt for https://www.na.org.au: Could not reach https://www.na.org.au/robots.txt: [Errno 101] Network is unreachable"
     },
     {
       "id": "aa-au-tsml",
