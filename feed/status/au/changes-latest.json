@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-12T22:07:58.524837+00:00",
-  "report_day": "2026-11-13",
+  "generated_at": "2026-11-13T21:50:11.518862+00:00",
+  "report_day": "2026-11-14",
   "previous_count": 2960,
-  "current_count": 2960,
-  "added_count": 0,
-  "removed_count": 0,
-  "changed_count": 5,
+  "current_count": 2959,
+  "added_count": 1,
+  "removed_count": 2,
+  "changed_count": 1,
   "broken_link_count": 1,
   "link_check": {
     "ok": 296,
@@ -15,58 +15,39 @@
     "blocked_by_host": 22,
     "skipped": false
   },
-  "stale_sources": [
-    "na-au-bmlt"
+  "stale_sources": [],
+  "added": [
+    {
+      "id": "na:au:4042",
+      "fellowship": "NA",
+      "name": "Sunshine Cost Early Bird",
+      "format": "in_person",
+      "state": "QLD"
+    }
   ],
-  "added": [],
-  "removed": [],
+  "removed": [
+    {
+      "id": "na:au:3625",
+      "fellowship": "NA",
+      "name": "Spiritual Principle a Day",
+      "format": "online",
+      "state": "NSW"
+    },
+    {
+      "id": "na:au:3685",
+      "fellowship": "NA",
+      "name": "Spiritual Principle a Day",
+      "format": "online",
+      "state": "NSW"
+    }
+  ],
   "changed": [
     {
-      "id": "aa:au:252484",
+      "id": "aa:au:272111",
       "fellowship": "AA",
-      "name": "Rockingham Discussion 1 Hr Wednesday",
+      "name": "Bridgeman Downs Joys of Recovery",
       "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:254049",
-      "fellowship": "AA",
-      "name": "Rockingham Discussion 1 Hr Friday",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:271200",
-      "fellowship": "AA",
-      "name": "Inner Freedom Wednesday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:272120",
-      "fellowship": "AA",
-      "name": "Big Book Women - Our Common Solution Monday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:272145",
-      "fellowship": "AA",
-      "name": "Early Bird Big Book Living Tuesday",
-      "format": "in_person",
-      "state": "NSW",
+      "state": "QLD",
       "fields": [
         "schedule"
       ]
