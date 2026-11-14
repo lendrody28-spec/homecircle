@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-13T21:50:11.518862+00:00",
-  "report_day": "2026-11-14",
-  "previous_count": 2960,
+  "generated_at": "2026-11-14T20:30:20.742179+00:00",
+  "report_day": "2026-11-15",
+  "previous_count": 2959,
   "current_count": 2959,
-  "added_count": 1,
-  "removed_count": 2,
-  "changed_count": 1,
+  "added_count": 0,
+  "removed_count": 0,
+  "changed_count": 0,
   "broken_link_count": 1,
   "link_check": {
     "ok": 296,
@@ -16,43 +16,9 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [
-    {
-      "id": "na:au:4042",
-      "fellowship": "NA",
-      "name": "Sunshine Cost Early Bird",
-      "format": "in_person",
-      "state": "QLD"
-    }
-  ],
-  "removed": [
-    {
-      "id": "na:au:3625",
-      "fellowship": "NA",
-      "name": "Spiritual Principle a Day",
-      "format": "online",
-      "state": "NSW"
-    },
-    {
-      "id": "na:au:3685",
-      "fellowship": "NA",
-      "name": "Spiritual Principle a Day",
-      "format": "online",
-      "state": "NSW"
-    }
-  ],
-  "changed": [
-    {
-      "id": "aa:au:272111",
-      "fellowship": "AA",
-      "name": "Bridgeman Downs Joys of Recovery",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    }
-  ],
+  "added": [],
+  "removed": [],
+  "changed": [],
   "broken_links": [
     {
       "id": "na:au:2510",
