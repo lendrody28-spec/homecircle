@@ -1,24 +1,87 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-14T20:30:20.742179+00:00",
-  "report_day": "2026-11-15",
+  "generated_at": "2026-11-15T20:53:43.687007+00:00",
+  "report_day": "2026-11-16",
   "previous_count": 2959,
-  "current_count": 2959,
+  "current_count": 2958,
   "added_count": 0,
-  "removed_count": 0,
-  "changed_count": 0,
+  "removed_count": 1,
+  "changed_count": 5,
   "broken_link_count": 1,
   "link_check": {
-    "ok": 296,
+    "ok": 295,
     "broken": 1,
     "blocked_by_host": 22,
     "skipped": false
   },
   "stale_sources": [],
   "added": [],
-  "removed": [],
-  "changed": [],
+  "removed": [
+    {
+      "id": "na:au:3336",
+      "fellowship": "NA",
+      "name": "The South Coast Wednesday Women's",
+      "format": "online",
+      "state": "NSW"
+    }
+  ],
+  "changed": [
+    {
+      "id": "aa:au:251997",
+      "fellowship": "AA",
+      "name": "Goulburn Tuesday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:253666",
+      "fellowship": "AA",
+      "name": "Goulburn Thursday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:254185",
+      "fellowship": "AA",
+      "name": "Eastern Twilight Wantirna South Friday",
+      "format": "hybrid",
+      "state": "VIC",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:270805",
+      "fellowship": "AA",
+      "name": "International Men's Meeting Online Sunday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3999",
+      "fellowship": "NA",
+      "name": "NA Southern Highlands",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "tags",
+        "notes",
+        "schedule"
+      ]
+    }
+  ],
   "broken_links": [
     {
       "id": "na:au:2510",
