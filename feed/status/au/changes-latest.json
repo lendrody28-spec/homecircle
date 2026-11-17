@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-17T00:03:38.775665+00:00",
-  "report_day": "2026-11-17",
-  "previous_count": 2958,
-  "current_count": 2955,
-  "added_count": 0,
-  "removed_count": 3,
-  "changed_count": 8,
+  "generated_at": "2026-11-17T23:24:40.314416+00:00",
+  "report_day": "2026-11-18",
+  "previous_count": 2955,
+  "current_count": 2956,
+  "added_count": 1,
+  "removed_count": 0,
+  "changed_count": 4,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -16,55 +16,21 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [],
-  "removed": [
+  "added": [
     {
-      "id": "aa:au:271509",
+      "id": "aa:au:272183",
       "fellowship": "AA",
-      "name": "Mackay Sunday Morning Inspiration Group",
-      "format": "in_person",
-      "state": "QLD"
-    },
-    {
-      "id": "na:au:3711",
-      "fellowship": "NA",
-      "name": "Kandos",
-      "format": "in_person",
-      "state": "NSW"
-    },
-    {
-      "id": "na:au:3981",
-      "fellowship": "NA",
-      "name": "Simple Sundays",
+      "name": "Rooms Of Her Own Tuesday",
       "format": "in_person",
       "state": "VIC"
     }
   ],
+  "removed": [],
   "changed": [
     {
-      "id": "aa:au:253785",
+      "id": "aa:au:251376",
       "fellowship": "AA",
-      "name": "Berry Thursday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268211",
-      "fellowship": "AA",
-      "name": "Townsville Women In Unity Monday",
-      "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:269591",
-      "fellowship": "AA",
-      "name": "Richmond Living Sober Sunday",
+      "name": "Blackburn Big Book Study Monday",
       "format": "in_person",
       "state": "VIC",
       "fields": [
@@ -72,55 +38,36 @@
       ]
     },
     {
-      "id": "aa:au:270586",
+      "id": "aa:au:251400",
       "fellowship": "AA",
-      "name": "Laverton Primary Purpose Lunchtime Thursday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "name",
-        "notes"
-      ]
-    },
-    {
-      "id": "na:au:2326",
-      "fellowship": "NA",
-      "name": "Katoomba Just For Today",
+      "name": "Quirindi Monday",
       "format": "in_person",
       "state": "NSW",
       "fields": [
-        "name",
+        "notes",
         "schedule"
       ]
     },
     {
-      "id": "na:au:2665",
+      "id": "na:au:2533",
       "fellowship": "NA",
-      "name": "North Perth Lunchie",
-      "format": "in_person",
-      "state": "WA",
+      "name": "Northern Newcomers",
+      "format": "hybrid",
+      "state": "VIC",
       "fields": [
+        "notes",
         "location"
       ]
     },
     {
-      "id": "na:au:3429",
+      "id": "na:au:3994",
       "fellowship": "NA",
-      "name": "Wellington NA",
+      "name": "Bankstown Tuesday Night",
       "format": "in_person",
       "state": "NSW",
       "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3834",
-      "fellowship": "NA",
-      "name": "Orange First Nations meeting",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
+        "name",
+        "notes"
       ]
     }
   ],
