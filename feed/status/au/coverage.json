@@ -1,25 +1,25 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-15T20:53:43.687007+00:00",
-  "meeting_count": 2958,
+  "generated_at": "2026-11-17T00:03:38.775665+00:00",
+  "meeting_count": 2955,
   "by_fellowship": {
-    "AA": 2200,
-    "NA": 758
+    "AA": 2199,
+    "NA": 756
   },
   "by_format": {
     "hybrid": 134,
-    "in_person": 2367,
+    "in_person": 2364,
     "online": 457
   },
   "by_state": {
     "ACT": 61,
-    "NSW": 1146,
+    "NSW": 1145,
     "NT": 26,
-    "QLD": 626,
+    "QLD": 625,
     "SA": 147,
     "TAS": 52,
-    "VIC": 656,
+    "VIC": 655,
     "WA": 244
   },
   "by_tag": {
@@ -27,14 +27,14 @@
     "first_nations": 13,
     "lgbtq": 69,
     "men": 76,
-    "open": 1077,
+    "open": 1076,
     "women": 162
   },
   "by_timezone_source": {
-    "source": 207,
-    "state": 2751
+    "source": 209,
+    "state": 2746
   },
-  "with_coordinates": 2958,
+  "with_coordinates": 2955,
   "with_online_url": 572,
   "with_online_phone": 217,
   "withheld": {
@@ -49,8 +49,8 @@
       "id": "na-au-bmlt",
       "name": "NA Australia BMLT",
       "status": "ok",
-      "fetched": 758,
-      "kept": 758,
+      "fetched": 756,
+      "kept": 756,
       "withheld": {
         "unpublished": 0,
         "outside_country": 0,
@@ -62,8 +62,8 @@
       "id": "aa-au-tsml",
       "name": "AA Australia Meeting Guide feed",
       "status": "ok",
-      "fetched": 2265,
-      "kept": 2200,
+      "fetched": 2264,
+      "kept": 2199,
       "withheld": {
         "inactive": 56,
         "temporarily_closed": 9,

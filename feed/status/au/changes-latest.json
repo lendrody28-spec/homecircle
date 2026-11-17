@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-15T20:53:43.687007+00:00",
-  "report_day": "2026-11-16",
-  "previous_count": 2959,
-  "current_count": 2958,
+  "generated_at": "2026-11-17T00:03:38.775665+00:00",
+  "report_day": "2026-11-17",
+  "previous_count": 2958,
+  "current_count": 2955,
   "added_count": 0,
-  "removed_count": 1,
-  "changed_count": 5,
+  "removed_count": 3,
+  "changed_count": 8,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -19,29 +19,32 @@
   "added": [],
   "removed": [
     {
-      "id": "na:au:3336",
+      "id": "aa:au:271509",
+      "fellowship": "AA",
+      "name": "Mackay Sunday Morning Inspiration Group",
+      "format": "in_person",
+      "state": "QLD"
+    },
+    {
+      "id": "na:au:3711",
       "fellowship": "NA",
-      "name": "The South Coast Wednesday Women's",
-      "format": "online",
+      "name": "Kandos",
+      "format": "in_person",
       "state": "NSW"
+    },
+    {
+      "id": "na:au:3981",
+      "fellowship": "NA",
+      "name": "Simple Sundays",
+      "format": "in_person",
+      "state": "VIC"
     }
   ],
   "changed": [
     {
-      "id": "aa:au:251997",
+      "id": "aa:au:253785",
       "fellowship": "AA",
-      "name": "Goulburn Tuesday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "notes",
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:253666",
-      "fellowship": "AA",
-      "name": "Goulburn Thursday",
+      "name": "Berry Thursday",
       "format": "in_person",
       "state": "NSW",
       "fields": [
@@ -49,35 +52,74 @@
       ]
     },
     {
-      "id": "aa:au:254185",
+      "id": "aa:au:268211",
       "fellowship": "AA",
-      "name": "Eastern Twilight Wantirna South Friday",
-      "format": "hybrid",
-      "state": "VIC",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:270805",
-      "fellowship": "AA",
-      "name": "International Men's Meeting Online Sunday",
-      "format": "online",
+      "name": "Townsville Women In Unity Monday",
+      "format": "in_person",
       "state": "QLD",
       "fields": [
-        "schedule",
         "location"
       ]
     },
     {
-      "id": "na:au:3999",
+      "id": "aa:au:269591",
+      "fellowship": "AA",
+      "name": "Richmond Living Sober Sunday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:270586",
+      "fellowship": "AA",
+      "name": "Laverton Primary Purpose Lunchtime Thursday",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "name",
+        "notes"
+      ]
+    },
+    {
+      "id": "na:au:2326",
       "fellowship": "NA",
-      "name": "NA Southern Highlands",
+      "name": "Katoomba Just For Today",
       "format": "in_person",
       "state": "NSW",
       "fields": [
-        "tags",
-        "notes",
+        "name",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:2665",
+      "fellowship": "NA",
+      "name": "North Perth Lunchie",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3429",
+      "fellowship": "NA",
+      "name": "Wellington NA",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3834",
+      "fellowship": "NA",
+      "name": "Orange First Nations meeting",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
         "schedule"
       ]
     }
