@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-17T23:24:40.314416+00:00",
-  "report_day": "2026-11-18",
-  "previous_count": 2955,
+  "generated_at": "2026-11-18T22:52:36.346317+00:00",
+  "report_day": "2026-11-19",
+  "previous_count": 2956,
   "current_count": 2956,
-  "added_count": 1,
+  "added_count": 0,
   "removed_count": 0,
-  "changed_count": 4,
+  "changed_count": 0,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -16,61 +16,9 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [
-    {
-      "id": "aa:au:272183",
-      "fellowship": "AA",
-      "name": "Rooms Of Her Own Tuesday",
-      "format": "in_person",
-      "state": "VIC"
-    }
-  ],
+  "added": [],
   "removed": [],
-  "changed": [
-    {
-      "id": "aa:au:251376",
-      "fellowship": "AA",
-      "name": "Blackburn Big Book Study Monday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:251400",
-      "fellowship": "AA",
-      "name": "Quirindi Monday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "notes",
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:2533",
-      "fellowship": "NA",
-      "name": "Northern Newcomers",
-      "format": "hybrid",
-      "state": "VIC",
-      "fields": [
-        "notes",
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3994",
-      "fellowship": "NA",
-      "name": "Bankstown Tuesday Night",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "name",
-        "notes"
-      ]
-    }
-  ],
+  "changed": [],
   "broken_links": [
     {
       "id": "na:au:2510",
