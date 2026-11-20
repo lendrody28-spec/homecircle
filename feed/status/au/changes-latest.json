@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-19T22:56:55.039019+00:00",
-  "report_day": "2026-11-20",
-  "previous_count": 2956,
-  "current_count": 2957,
+  "generated_at": "2026-11-20T22:32:59.602576+00:00",
+  "report_day": "2026-11-21",
+  "previous_count": 2957,
+  "current_count": 2959,
   "added_count": 2,
-  "removed_count": 1,
-  "changed_count": 4,
+  "removed_count": 0,
+  "changed_count": 2,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -15,71 +15,45 @@
     "blocked_by_host": 22,
     "skipped": false
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "na-au-bmlt"
+  ],
   "added": [
     {
-      "id": "aa:au:272191",
+      "id": "aa:au:272199",
       "fellowship": "AA",
-      "name": "The Sober Breakfast Club Sunday",
+      "name": "North Perth Late Night Steps Thursday",
       "format": "in_person",
-      "state": "VIC"
+      "state": "WA"
     },
     {
-      "id": "aa:au:272193",
+      "id": "aa:au:272200",
       "fellowship": "AA",
-      "name": "Toowoomba Fresh Start Friday",
-      "format": "in_person",
-      "state": "QLD"
-    }
-  ],
-  "removed": [
-    {
-      "id": "aa:au:251902",
-      "fellowship": "AA",
-      "name": "Lithgow Tuesday",
+      "name": "Wilton AA Thursday",
       "format": "in_person",
       "state": "NSW"
     }
   ],
+  "removed": [],
   "changed": [
     {
-      "id": "aa:au:250656",
+      "id": "aa:au:252462",
       "fellowship": "AA",
-      "name": "Enoggera Big Book Monday",
+      "name": "Kalgoorlie Steps 12-1:1-12 Wednesday",
       "format": "in_person",
-      "state": "QLD",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "aa:au:250941",
-      "fellowship": "AA",
-      "name": "Snowy Mountains Recovery Jindabyne Tuesday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:252843",
-      "fellowship": "AA",
-      "name": "The Deal Mens Wednesday",
-      "format": "in_person",
-      "state": "VIC",
+      "state": "WA",
       "fields": [
         "notes"
       ]
     },
     {
-      "id": "aa:au:268918",
+      "id": "aa:au:257219",
       "fellowship": "AA",
-      "name": "Rewards of AA Women's Group Friday",
+      "name": "Wednesday – 8.00PM – Identification",
       "format": "in_person",
-      "state": "VIC",
+      "state": "NT",
       "fields": [
-        "notes"
+        "name"
       ]
     }
   ],
