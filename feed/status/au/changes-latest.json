@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-20T22:32:59.602576+00:00",
-  "report_day": "2026-11-21",
-  "previous_count": 2957,
+  "generated_at": "2026-11-21T21:29:52.395570+00:00",
+  "report_day": "2026-11-22",
+  "previous_count": 2959,
   "current_count": 2959,
-  "added_count": 2,
+  "added_count": 0,
   "removed_count": 0,
   "changed_count": 2,
   "broken_link_count": 1,
@@ -15,45 +15,30 @@
     "blocked_by_host": 22,
     "skipped": false
   },
-  "stale_sources": [
-    "na-au-bmlt"
-  ],
-  "added": [
-    {
-      "id": "aa:au:272199",
-      "fellowship": "AA",
-      "name": "North Perth Late Night Steps Thursday",
-      "format": "in_person",
-      "state": "WA"
-    },
-    {
-      "id": "aa:au:272200",
-      "fellowship": "AA",
-      "name": "Wilton AA Thursday",
-      "format": "in_person",
-      "state": "NSW"
-    }
-  ],
+  "stale_sources": [],
+  "added": [],
   "removed": [],
   "changed": [
     {
-      "id": "aa:au:252462",
+      "id": "aa:au:254914",
       "fellowship": "AA",
-      "name": "Kalgoorlie Steps 12-1:1-12 Wednesday",
-      "format": "in_person",
-      "state": "WA",
+      "name": "Macquarie Fields Saturday",
+      "format": "online",
+      "state": "NSW",
       "fields": [
-        "notes"
+        "notes",
+        "online"
       ]
     },
     {
-      "id": "aa:au:257219",
+      "id": "aa:au:271621",
       "fellowship": "AA",
-      "name": "Wednesday – 8.00PM – Identification",
+      "name": "The Cheeky Monkey Saturday Night Beginners and Topic",
       "format": "in_person",
-      "state": "NT",
+      "state": "VIC",
       "fields": [
-        "name"
+        "name",
+        "notes"
       ]
     }
   ],
