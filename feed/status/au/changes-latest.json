@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-21T21:29:52.395570+00:00",
-  "report_day": "2026-11-22",
+  "generated_at": "2026-11-22T21:37:20.928259+00:00",
+  "report_day": "2026-11-23",
   "previous_count": 2959,
-  "current_count": 2959,
+  "current_count": 2958,
   "added_count": 0,
-  "removed_count": 0,
-  "changed_count": 2,
+  "removed_count": 1,
+  "changed_count": 5,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -17,28 +17,66 @@
   },
   "stale_sources": [],
   "added": [],
-  "removed": [],
+  "removed": [
+    {
+      "id": "na:au:3631",
+      "fellowship": "NA",
+      "name": "Lightning Ridge Monday Night NA",
+      "format": "in_person",
+      "state": "NSW"
+    }
+  ],
   "changed": [
     {
-      "id": "aa:au:254914",
-      "fellowship": "AA",
-      "name": "Macquarie Fields Saturday",
+      "id": "na:au:2818",
+      "fellowship": "NA",
+      "name": "Saturday Spiritual Concepts",
+      "format": "in_person",
+      "state": "ACT",
+      "fields": [
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3364",
+      "fellowship": "NA",
+      "name": "Stanley Street Online Meeting",
       "format": "online",
       "state": "NSW",
       "fields": [
-        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3788",
+      "fellowship": "NA",
+      "name": "Thursday Spiritual principles meeting",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "format",
+        "schedule",
         "online"
       ]
     },
     {
-      "id": "aa:au:271621",
-      "fellowship": "AA",
-      "name": "The Cheeky Monkey Saturday Night Beginners and Topic",
-      "format": "in_person",
-      "state": "VIC",
+      "id": "na:au:4031",
+      "fellowship": "NA",
+      "name": "Living Free - Cairns Online",
+      "format": "online",
+      "state": "QLD",
       "fields": [
-        "name",
-        "notes"
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:4040",
+      "fellowship": "NA",
+      "name": "Lightning Ridge NA Group",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "tags"
       ]
     }
   ],
