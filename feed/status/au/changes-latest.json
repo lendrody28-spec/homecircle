@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-22T21:37:20.928259+00:00",
-  "report_day": "2026-11-23",
-  "previous_count": 2959,
+  "generated_at": "2026-11-24T02:47:58.249777+00:00",
+  "report_day": "2026-11-24",
+  "previous_count": 2958,
   "current_count": 2958,
-  "added_count": 0,
+  "added_count": 1,
   "removed_count": 1,
-  "changed_count": 5,
+  "changed_count": 9,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -16,67 +16,115 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [],
+  "added": [
+    {
+      "id": "aa:au:272205",
+      "fellowship": "AA",
+      "name": "Pakenham Discussion Thursday",
+      "format": "in_person",
+      "state": "VIC"
+    }
+  ],
   "removed": [
     {
-      "id": "na:au:3631",
-      "fellowship": "NA",
-      "name": "Lightning Ridge Monday Night NA",
+      "id": "aa:au:253761",
+      "fellowship": "AA",
+      "name": "Bankstown Thursday",
       "format": "in_person",
       "state": "NSW"
     }
   ],
   "changed": [
     {
-      "id": "na:au:2818",
-      "fellowship": "NA",
-      "name": "Saturday Spiritual Concepts",
+      "id": "aa:au:253785",
+      "fellowship": "AA",
+      "name": "Berry Thursday",
       "format": "in_person",
-      "state": "ACT",
-      "fields": [
-        "location"
-      ]
-    },
-    {
-      "id": "na:au:3364",
-      "fellowship": "NA",
-      "name": "Stanley Street Online Meeting",
-      "format": "online",
       "state": "NSW",
       "fields": [
         "schedule"
       ]
     },
     {
-      "id": "na:au:3788",
-      "fellowship": "NA",
-      "name": "Thursday Spiritual principles meeting",
+      "id": "aa:au:253976",
+      "fellowship": "AA",
+      "name": "Glen Forrest 'Nitty Gritty' Women's Friday",
       "format": "in_person",
-      "state": "QLD",
+      "state": "WA",
       "fields": [
-        "format",
-        "schedule",
-        "online"
+        "notes"
       ]
     },
     {
-      "id": "na:au:4031",
-      "fellowship": "NA",
-      "name": "Living Free - Cairns Online",
+      "id": "aa:au:255872",
+      "fellowship": "AA",
+      "name": "Paraburdoo Sunday",
+      "format": "in_person",
+      "state": "WA",
+      "fields": [
+        "name",
+        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:268373",
+      "fellowship": "AA",
+      "name": "The Daily Shivering Denizen Brisbane Monday",
       "format": "online",
       "state": "QLD",
       "fields": [
-        "location"
+        "schedule"
       ]
     },
     {
-      "id": "na:au:4040",
-      "fellowship": "NA",
-      "name": "Lightning Ridge NA Group",
+      "id": "aa:au:268377",
+      "fellowship": "AA",
+      "name": "The Daily Shivering Denizen Brisbane Friday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:268546",
+      "fellowship": "AA",
+      "name": "The Daily Shivering Denizen Brisbane Saturday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:268548",
+      "fellowship": "AA",
+      "name": "The Daily Shivering Denizen Brisbane Sunday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:270360",
+      "fellowship": "AA",
+      "name": "Saturday Night Desperados ID",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:272200",
+      "fellowship": "AA",
+      "name": "Wilton AA Thursday",
       "format": "in_person",
       "state": "NSW",
       "fields": [
-        "tags"
+        "schedule"
       ]
     }
   ],

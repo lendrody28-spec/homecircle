@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-22T21:37:20.928259+00:00",
+  "generated_at": "2026-11-24T02:47:58.249777+00:00",
   "meeting_count": 2958,
   "by_fellowship": {
     "AA": 2203,
@@ -14,12 +14,12 @@
   },
   "by_state": {
     "ACT": 61,
-    "NSW": 1144,
+    "NSW": 1143,
     "NT": 26,
     "QLD": 626,
     "SA": 147,
     "TAS": 52,
-    "VIC": 657,
+    "VIC": 658,
     "WA": 245
   },
   "by_tag": {
