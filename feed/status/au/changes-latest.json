@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-24T02:47:58.249777+00:00",
-  "report_day": "2026-11-24",
+  "generated_at": "2026-11-25T00:27:32.301963+00:00",
+  "report_day": "2026-11-25",
   "previous_count": 2958,
   "current_count": 2958,
-  "added_count": 1,
-  "removed_count": 1,
-  "changed_count": 9,
+  "added_count": 0,
+  "removed_count": 0,
+  "changed_count": 3,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -16,101 +16,13 @@
     "skipped": false
   },
   "stale_sources": [],
-  "added": [
-    {
-      "id": "aa:au:272205",
-      "fellowship": "AA",
-      "name": "Pakenham Discussion Thursday",
-      "format": "in_person",
-      "state": "VIC"
-    }
-  ],
-  "removed": [
-    {
-      "id": "aa:au:253761",
-      "fellowship": "AA",
-      "name": "Bankstown Thursday",
-      "format": "in_person",
-      "state": "NSW"
-    }
-  ],
+  "added": [],
+  "removed": [],
   "changed": [
     {
-      "id": "aa:au:253785",
+      "id": "aa:au:251376",
       "fellowship": "AA",
-      "name": "Berry Thursday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:253976",
-      "fellowship": "AA",
-      "name": "Glen Forrest 'Nitty Gritty' Women's Friday",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:255872",
-      "fellowship": "AA",
-      "name": "Paraburdoo Sunday",
-      "format": "in_person",
-      "state": "WA",
-      "fields": [
-        "name",
-        "notes",
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268373",
-      "fellowship": "AA",
-      "name": "The Daily Shivering Denizen Brisbane Monday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268377",
-      "fellowship": "AA",
-      "name": "The Daily Shivering Denizen Brisbane Friday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268546",
-      "fellowship": "AA",
-      "name": "The Daily Shivering Denizen Brisbane Saturday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:268548",
-      "fellowship": "AA",
-      "name": "The Daily Shivering Denizen Brisbane Sunday",
-      "format": "online",
-      "state": "QLD",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:270360",
-      "fellowship": "AA",
-      "name": "Saturday Night Desperados ID",
+      "name": "Blackburn Big Book Study Monday",
       "format": "in_person",
       "state": "VIC",
       "fields": [
@@ -118,13 +30,23 @@
       ]
     },
     {
-      "id": "aa:au:272200",
+      "id": "aa:au:251690",
       "fellowship": "AA",
-      "name": "Wilton AA Thursday",
+      "name": "Blackburn South Tuesday",
       "format": "in_person",
-      "state": "NSW",
+      "state": "VIC",
       "fields": [
-        "schedule"
+        "notes"
+      ]
+    },
+    {
+      "id": "aa:au:267893",
+      "fellowship": "AA",
+      "name": "McKinnon Friday Night Discussion",
+      "format": "in_person",
+      "state": "VIC",
+      "fields": [
+        "notes"
       ]
     }
   ],
