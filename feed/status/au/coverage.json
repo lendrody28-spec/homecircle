@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-25T00:27:32.301963+00:00",
-  "meeting_count": 2958,
+  "generated_at": "2026-11-26T00:03:19.106059+00:00",
+  "meeting_count": 2957,
   "by_fellowship": {
-    "AA": 2203,
+    "AA": 2202,
     "NA": 755
   },
   "by_format": {
     "hybrid": 133,
-    "in_person": 2368,
+    "in_person": 2367,
     "online": 457
   },
   "by_state": {
@@ -19,7 +19,7 @@
     "QLD": 626,
     "SA": 147,
     "TAS": 52,
-    "VIC": 658,
+    "VIC": 657,
     "WA": 245
   },
   "by_tag": {
@@ -31,10 +31,10 @@
     "women": 163
   },
   "by_timezone_source": {
-    "source": 212,
-    "state": 2746
+    "source": 213,
+    "state": 2744
   },
-  "with_coordinates": 2958,
+  "with_coordinates": 2957,
   "with_online_url": 571,
   "with_online_phone": 216,
   "withheld": {
@@ -62,8 +62,8 @@
       "id": "aa-au-tsml",
       "name": "AA Australia Meeting Guide feed",
       "status": "ok",
-      "fetched": 2266,
-      "kept": 2203,
+      "fetched": 2265,
+      "kept": 2202,
       "withheld": {
         "inactive": 54,
         "temporarily_closed": 9,

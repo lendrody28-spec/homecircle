@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-25T00:27:32.301963+00:00",
-  "report_day": "2026-11-25",
+  "generated_at": "2026-11-26T00:03:19.106059+00:00",
+  "report_day": "2026-11-26",
   "previous_count": 2958,
-  "current_count": 2958,
+  "current_count": 2957,
   "added_count": 0,
-  "removed_count": 0,
-  "changed_count": 3,
+  "removed_count": 1,
+  "changed_count": 4,
   "broken_link_count": 1,
   "link_check": {
     "ok": 295,
@@ -17,12 +17,30 @@
   },
   "stale_sources": [],
   "added": [],
-  "removed": [],
+  "removed": [
+    {
+      "id": "aa:au:271731",
+      "fellowship": "AA",
+      "name": "Roads to Recovery Meditation Tuesday",
+      "format": "in_person",
+      "state": "VIC"
+    }
+  ],
   "changed": [
     {
-      "id": "aa:au:251376",
+      "id": "aa:au:252561",
       "fellowship": "AA",
-      "name": "Blackburn Big Book Study Monday",
+      "name": "Gloucester Wednesday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:254942",
+      "fellowship": "AA",
+      "name": "Heathmont Saturday",
       "format": "in_person",
       "state": "VIC",
       "fields": [
@@ -30,23 +48,24 @@
       ]
     },
     {
-      "id": "aa:au:251690",
+      "id": "aa:au:255571",
       "fellowship": "AA",
-      "name": "Blackburn South Tuesday",
+      "name": "Gloucester Sunday",
       "format": "in_person",
-      "state": "VIC",
+      "state": "NSW",
       "fields": [
-        "notes"
+        "schedule"
       ]
     },
     {
-      "id": "aa:au:267893",
-      "fellowship": "AA",
-      "name": "McKinnon Friday Night Discussion",
-      "format": "in_person",
-      "state": "VIC",
+      "id": "na:au:3473",
+      "fellowship": "NA",
+      "name": "Mandurah Empowering Women’s Meeting",
+      "format": "hybrid",
+      "state": "WA",
       "fields": [
-        "notes"
+        "notes",
+        "schedule"
       ]
     }
   ],
