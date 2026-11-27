@@ -1,70 +1,172 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-26T00:03:19.106059+00:00",
-  "report_day": "2026-11-26",
-  "previous_count": 2958,
-  "current_count": 2957,
-  "added_count": 0,
-  "removed_count": 1,
-  "changed_count": 4,
+  "generated_at": "2026-11-27T00:24:07.617049+00:00",
+  "report_day": "2026-11-27",
+  "previous_count": 2957,
+  "current_count": 2956,
+  "added_count": 1,
+  "removed_count": 2,
+  "changed_count": 12,
   "broken_link_count": 1,
   "link_check": {
-    "ok": 295,
+    "ok": 296,
     "broken": 1,
     "blocked_by_host": 22,
     "skipped": false
   },
   "stale_sources": [],
-  "added": [],
+  "added": [
+    {
+      "id": "aa:au:272211",
+      "fellowship": "AA",
+      "name": "TGI (Thank GOD it's) Friday",
+      "format": "online",
+      "state": "QLD"
+    }
+  ],
   "removed": [
     {
-      "id": "aa:au:271731",
+      "id": "aa:au:254352",
       "fellowship": "AA",
-      "name": "Roads to Recovery Meditation Tuesday",
+      "name": "TGI (Thank GOD it's) Friday",
+      "format": "online",
+      "state": "QLD"
+    },
+    {
+      "id": "na:au:2562",
+      "fellowship": "NA",
+      "name": "Buderim Lunchie Meeting - The Healing Hour",
       "format": "in_person",
-      "state": "VIC"
+      "state": "QLD"
     }
   ],
   "changed": [
     {
-      "id": "aa:au:252561",
+      "id": "aa:au:252547",
       "fellowship": "AA",
-      "name": "Gloucester Wednesday",
+      "name": "Goulburn 'Doers' Wednesday",
       "format": "in_person",
       "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "aa:au:254942",
-      "fellowship": "AA",
-      "name": "Heathmont Saturday",
-      "format": "in_person",
-      "state": "VIC",
-      "fields": [
-        "notes"
-      ]
-    },
-    {
-      "id": "aa:au:255571",
-      "fellowship": "AA",
-      "name": "Gloucester Sunday",
-      "format": "in_person",
-      "state": "NSW",
-      "fields": [
-        "schedule"
-      ]
-    },
-    {
-      "id": "na:au:3473",
-      "fellowship": "NA",
-      "name": "Mandurah Empowering Women’s Meeting",
-      "format": "hybrid",
-      "state": "WA",
       "fields": [
         "notes",
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:253688",
+      "fellowship": "AA",
+      "name": "Townsville Warburton Street Steps/ID",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:255641",
+      "fellowship": "AA",
+      "name": "Goulburn \"Doers\" Sunday",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name",
+        "location"
+      ]
+    },
+    {
+      "id": "aa:au:255719",
+      "fellowship": "AA",
+      "name": "Sunday Night Topics Toowoomba",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "notes",
+        "schedule",
+        "online"
+      ]
+    },
+    {
+      "id": "aa:au:256756",
+      "fellowship": "AA",
+      "name": "Toowoomba - ‘Yakka Gully’ - Monday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:256759",
+      "fellowship": "AA",
+      "name": "Toowoomba - ‘Yakka Gully’ - Tuesday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:256760",
+      "fellowship": "AA",
+      "name": "Toowoomba - ‘Yakka Gully’ - Wednesday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:256761",
+      "fellowship": "AA",
+      "name": "Toowoomba - ‘Yakka Gully’ - Thursday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "aa:au:256762",
+      "fellowship": "AA",
+      "name": "Toowoomba - ‘Yakka Gully’ - Friday",
+      "format": "online",
+      "state": "QLD",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:2298",
+      "fellowship": "NA",
+      "name": "Tuesday Night Living Clean",
+      "format": "in_person",
+      "state": "SA",
+      "fields": [
+        "notes",
+        "schedule",
+        "location"
+      ]
+    },
+    {
+      "id": "na:au:3018",
+      "fellowship": "NA",
+      "name": "NA Speaker/Just For Today",
+      "format": "in_person",
+      "state": "NSW",
+      "fields": [
+        "name",
+        "notes",
+        "schedule"
+      ]
+    },
+    {
+      "id": "na:au:3234",
+      "fellowship": "NA",
+      "name": "Toowoomba Tuesday night",
+      "format": "in_person",
+      "state": "QLD",
+      "fields": [
         "schedule"
       ]
     }

@@ -1,22 +1,22 @@
 {
   "schema_version": "1.0.0",
   "country": "AU",
-  "generated_at": "2026-11-26T00:03:19.106059+00:00",
-  "meeting_count": 2957,
+  "generated_at": "2026-11-27T00:24:07.617049+00:00",
+  "meeting_count": 2956,
   "by_fellowship": {
     "AA": 2202,
-    "NA": 755
+    "NA": 754
   },
   "by_format": {
     "hybrid": 133,
-    "in_person": 2367,
+    "in_person": 2366,
     "online": 457
   },
   "by_state": {
     "ACT": 61,
     "NSW": 1143,
     "NT": 26,
-    "QLD": 626,
+    "QLD": 625,
     "SA": 147,
     "TAS": 52,
     "VIC": 657,
@@ -27,14 +27,14 @@
     "first_nations": 13,
     "lgbtq": 69,
     "men": 76,
-    "open": 1077,
+    "open": 1076,
     "women": 163
   },
   "by_timezone_source": {
-    "source": 213,
-    "state": 2744
+    "source": 223,
+    "state": 2733
   },
-  "with_coordinates": 2957,
+  "with_coordinates": 2956,
   "with_online_url": 571,
   "with_online_phone": 216,
   "withheld": {
@@ -49,8 +49,8 @@
       "id": "na-au-bmlt",
       "name": "NA Australia BMLT",
       "status": "ok",
-      "fetched": 755,
-      "kept": 755,
+      "fetched": 754,
+      "kept": 754,
       "withheld": {
         "unpublished": 0,
         "outside_country": 0,
@@ -95,7 +95,7 @@
     }
   ],
   "link_check": {
-    "ok": 295,
+    "ok": 296,
     "broken": 1,
     "blocked_by_host": 22,
     "skipped": false
